@@ -1,0 +1,109 @@
+host/helloworldhost ./enclave/helloworldenc.signed d1=0.0101 n1=199 v00=1.508,1.581,1.69,1.826,2.0
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhost11vZa8"
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = n%d
+str = n2
+sprintf_mylibc = n%d
+str = n1
+snprintf_mylibc = %d
+str = 595
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = o%d
+str = o1
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = d%d
+str = d1
+snprintf_mylibc = %g
+str = 0.0101
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = label%d
+str = label1
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = unit%d
+str = unit1
+sprintf_mylibc = n%d
+str = n3
+sprintf_mylibc = n%d
+str = n2
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = o%d
+str = o3
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = d%d
+str = d3
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = n%d
+str = n4
+sprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %d
+str = 199
+snprintf_mylibc = %g
+str = 0.0101
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = "%s"
+str = "Depth"
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 2030
+@@time_function = 5
+@@time_terminate = 40
+@@Time total = 2212

@@ -1,0 +1,31 @@
+host/helloworldhost ./enclave/helloworldenc.signed vel=0 zshot=1500
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostghithz"
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = Shooting from zshot=%g yshot=%g xshot=%g
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = shot %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 20921
+@@time_function = 13062
+@@time_terminate = 235
+@@Time total = 34398

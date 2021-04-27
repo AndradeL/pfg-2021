@@ -1,0 +1,83 @@
+host/helloworldhost ./enclave/helloworldenc.signed nt=501 dt=0.004 freq=25 refl=rsf/refl.rsf ns=12 s0=1.4 ds=-0.1 nh=64 h0=0.1 dh=0.1 vel=5 gradz=2 type=v
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostv6ljIS"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 501
+snprintf_mylibc = %g
+str = 0.004
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = "%s"
+str = "Time"
+sprintf_mylibc = "%s"
+str = "s"
+snprintf_mylibc = %g
+str = 1.4
+snprintf_mylibc = %g
+str = -0.1
+snprintf_mylibc = %d
+str = 12
+snprintf_mylibc = %d
+str = 64
+snprintf_mylibc = %g
+str = 0.1
+snprintf_mylibc = %g
+str = 0.1
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 2033
+@@time_function = 296
+@@time_terminate = 39
+@@Time total = 2418

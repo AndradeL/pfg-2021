@@ -1,0 +1,65 @@
+host/helloworldhost ./enclave/helloworldenc.signed
+path = rsf/complex.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/diff0.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/out.rsf
+path = .datapath
+path = /dev/null
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostAR96bk"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %d
+str = 1
+
+signal energy at n3=1      = 137.756744 
+noise  energy at n3=1      = 42.362015 
+the SNR       at n3=1      = 5.121363 
+
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 2060
+@@time_function = 19
+@@time_terminate = 40
+@@Time total = 2153

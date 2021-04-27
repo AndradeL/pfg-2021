@@ -1,0 +1,9 @@
+3.1-git	helloworldhost	teste-new/Teste-dentro-enclave/zMlinear:	luislacalle@luislacalle-G3-3590	Mon Dec  7 04:40:50 2020
+
+	o1=0
+	n2=1
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/helloworldhostinrz3s"
+	d1=0.004
+	n1=64

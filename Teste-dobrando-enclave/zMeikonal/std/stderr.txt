@@ -1,0 +1,2 @@
+helloworldhost: Shooting from zshot=1500 yshot=6740 xshot=6740
+helloworldhost: shot 1 of 1;

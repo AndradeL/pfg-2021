@@ -1,0 +1,22 @@
+1 1 1 1 1 1 1 1 1 1 1 1 a0=-12 n1=12 data_format=ascii_float in=two0.asc lag=two_lag.rsf
+3.1.1	sfdd	openenclave/scons-files/sfhelicon:	lucas@lucas-X580VD	Sat Mar 20 11:57:46 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfhelicon/two.rsf@"
+3.1.1	sfautocorr	openenclave/scons-files/sfhelicon:	lucas@lucas-X580VD	Sat Mar 20 11:57:47 2021
+
+	data_format="native_float"
+	esize=4
+	a0=78
+	in="/var/tmp/openenclave/scons-files/sfhelicon/autotwo.rsf@"
+	lag="slagtwo.rsf"
+	n1=20
+3.1.1	sfwilson	openenclave/scons-files/sfhelicon:	lucas@lucas-X580VD	Sat Mar 20 11:57:47 2021
+
+	data_format="native_float"
+	esize=4
+	a0=12
+	in="/var/tmp/openenclave/scons-files/sfhelicon/facttwo.rsf@"
+	lag="alagtwo.rsf"
+	n1=12

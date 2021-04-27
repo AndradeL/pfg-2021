@@ -1,0 +1,22 @@
+1 1 2 1 1 2 a0=-8 n1=6 data_format=ascii_float in=dip0.asc lag=dip_lag.rsf
+3.1.1	sfdd	openenclave/scons-files/sfhelicon:	lucas@lucas-X580VD	Sat Mar 20 11:57:46 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfhelicon/dip.rsf@"
+3.1.1	sfautocorr	openenclave/scons-files/sfhelicon:	lucas@lucas-X580VD	Sat Mar 20 11:57:47 2021
+
+	data_format="native_float"
+	esize=4
+	a0=38
+	in="/var/tmp/openenclave/scons-files/sfhelicon/autodip.rsf@"
+	lag="slagdip.rsf"
+	n1=9
+3.1.1	sfwilson	openenclave/scons-files/sfhelicon:	lucas@lucas-X580VD	Sat Mar 20 11:57:47 2021
+
+	data_format="native_float"
+	esize=4
+	a0=8
+	in="/var/tmp/openenclave/scons-files/sfhelicon/factdip.rsf@"
+	lag="alagdip.rsf"
+	n1=6

@@ -1,0 +1,7 @@
+3.1.1	sfsegyread	openenclave/scons-files/sfmf:	lucas@lucas-X580VD	Sat Mar 20 11:59:09 2021
+
+	n2=6161
+	data_format="native_int"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfmf/tnewstack.rsf@"
+	n1=91

@@ -1,0 +1,460 @@
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostKp29CW"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %g
+str = 0
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = offset %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 239
+@@time_function = 10659
+@@time_terminate = 13
+@@Time total = 10965
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostqmRIyc"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %g
+str = 0
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = offset %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 236
+@@time_function = 10665
+@@time_terminate = 13
+@@Time total = 10962
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhost4Mbj7m"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %g
+str = 0
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = offset %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 248
+@@time_function = 10652
+@@time_terminate = 13
+@@Time total = 11028
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostWtYTrE"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %g
+str = 0
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = offset %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 239
+@@time_function = 10659
+@@time_terminate = 13
+@@Time total = 10998
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostXZ0Fyj"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %g
+str = 0
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = offset %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 235
+@@time_function = 10644
+@@time_terminate = 13
+@@Time total = 10939
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhost60v6Bt"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %g
+str = 0
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = offset %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 240
+@@time_function = 10655
+@@time_terminate = 12
+@@Time total = 10948
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostu3dJjq"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %g
+str = 0
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = offset %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 235
+@@time_function = 10658
+@@time_terminate = 13
+@@Time total = 11045
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostCoz5FH"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %g
+str = 0
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = offset %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 235
+@@time_function = 10643
+@@time_terminate = 13
+@@Time total = 10954
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostML3yh7"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %g
+str = 0
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = offset %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 249
+@@time_function = 10655
+@@time_terminate = 13
+@@Time total = 10957
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/lucas/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhost71EAmS"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %g
+str = 0
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = offset %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 241
+@@time_function = 10654
+@@time_terminate = 13
+@@Time total = 11189

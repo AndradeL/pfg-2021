@@ -1,0 +1,640 @@
+path = rsf/complex.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/diff0.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/out.rsf
+path = .datapath
+path = /dev/null
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostu4TFa2"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %d
+str = 1
+
+signal energy at n3=1      = 137.756744 
+noise  energy at n3=1      = 42.362015 
+the SNR       at n3=1      = 5.121363 
+
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 35
+@@time_function = 91
+@@time_terminate = 3
+@@Time total = 162
+path = rsf/complex.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/diff0.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/out.rsf
+path = .datapath
+path = /dev/null
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostXeiw0P"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %d
+str = 1
+
+signal energy at n3=1      = 137.756744 
+noise  energy at n3=1      = 42.362015 
+the SNR       at n3=1      = 5.121363 
+
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 35
+@@time_function = 5
+@@time_terminate = 1
+@@Time total = 111
+path = rsf/complex.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/diff0.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/out.rsf
+path = .datapath
+path = /dev/null
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostiOaACp"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %d
+str = 1
+
+signal energy at n3=1      = 137.756744 
+noise  energy at n3=1      = 42.362015 
+the SNR       at n3=1      = 5.121363 
+
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 36
+@@time_function = 5
+@@time_terminate = 2
+@@Time total = 80
+path = rsf/complex.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/diff0.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/out.rsf
+path = .datapath
+path = /dev/null
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostx95u5X"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %d
+str = 1
+
+signal energy at n3=1      = 137.756744 
+noise  energy at n3=1      = 42.362015 
+the SNR       at n3=1      = 5.121363 
+
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 36
+@@time_function = 5
+@@time_terminate = 1
+@@Time total = 126
+path = rsf/complex.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/diff0.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/out.rsf
+path = .datapath
+path = /dev/null
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostOW0TxF"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %d
+str = 1
+
+signal energy at n3=1      = 137.756744 
+noise  energy at n3=1      = 42.362015 
+the SNR       at n3=1      = 5.121363 
+
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 35
+@@time_function = 5
+@@time_terminate = 2
+@@Time total = 64
+path = rsf/complex.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/diff0.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/out.rsf
+path = .datapath
+path = /dev/null
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostdwwyYB"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %d
+str = 1
+
+signal energy at n3=1      = 137.756744 
+noise  energy at n3=1      = 42.362015 
+the SNR       at n3=1      = 5.121363 
+
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 35
+@@time_function = 5
+@@time_terminate = 1
+@@Time total = 299
+path = rsf/complex.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/diff0.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/out.rsf
+path = .datapath
+path = /dev/null
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostfGPIcn"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %d
+str = 1
+
+signal energy at n3=1      = 137.756744 
+noise  energy at n3=1      = 42.362015 
+the SNR       at n3=1      = 5.121363 
+
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 35
+@@time_function = 5
+@@time_terminate = 1
+@@Time total = 112
+path = rsf/complex.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/diff0.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/out.rsf
+path = .datapath
+path = /dev/null
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhost32d6gh"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %d
+str = 1
+
+signal energy at n3=1      = 137.756744 
+noise  energy at n3=1      = 42.362015 
+the SNR       at n3=1      = 5.121363 
+
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 35
+@@time_function = 5
+@@time_terminate = 2
+@@Time total = 115
+path = rsf/complex.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/diff0.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/out.rsf
+path = .datapath
+path = /dev/null
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostpGpyTb"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %d
+str = 1
+
+signal energy at n3=1      = 137.756744 
+noise  energy at n3=1      = 42.362015 
+the SNR       at n3=1      = 5.121363 
+
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 36
+@@time_function = 5
+@@time_terminate = 1
+@@Time total = 56
+path = rsf/complex.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/diff0.rsf
+path = .tmpdatapath
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+path = /home/luislacalle/.tmpdatapath
+path = .datapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+path = rsf/out.rsf
+path = .datapath
+path = /dev/null
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostdJfbc8"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+snprintf_mylibc = %g
+str = 1
+snprintf_mylibc = %d
+str = 1
+
+signal energy at n3=1      = 137.756744 
+noise  energy at n3=1      = 42.362015 
+the SNR       at n3=1      = 5.121363 
+
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 36
+@@time_function = 5
+@@time_terminate = 2
+@@Time total = 99

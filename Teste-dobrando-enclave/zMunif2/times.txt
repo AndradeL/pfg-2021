@@ -1,0 +1,43 @@
+@@time_create = 15
+@@time_function = 4
+@@time_terminate = 0
+@@Time total = 118
+@@time_create = 15
+@@time_function = 4
+@@time_terminate = 0
+@@Time total = 57
+@@time_create = 15
+@@time_function = 4
+@@time_terminate = 1
+@@Time total = 87
+@@time_create = 15
+@@time_function = 5
+@@time_terminate = 0
+@@Time total = 52
+@@time_create = 15
+@@time_function = 4
+@@time_terminate = 1
+@@Time total = 39
+@@time_create = 15
+@@time_function = 4
+@@time_terminate = 1
+@@Time total = 161
+@@time_create = 16
+@@time_function = 4
+@@time_terminate = 0
+@@Time total = 32
+@@time_create = 15
+@@time_function = 4
+@@time_terminate = 0
+@@Time total = 32
+@@time_create = 15
+@@time_function = 4
+@@time_terminate = 1
+@@Time total = 56
+@@time_create = 14
+@@time_function = 3
+@@time_terminate = 1
+@@Time total = 92
+2021-04-08T21:17:58-0300.298301Z [(H)ERROR] tid(0x7f1db4a142c0) | enclave_create with ENCLAVE_TYPE_SGX1 type failed (err=0x1) (oe_result_t=OE_PLATFORM_ERROR) [/source/host/sgx/sgxload.c:oe_sgx_create_enclave:383]
+2021-04-08T21:17:58-0300.298345Z [(H)ERROR] tid(0x7f1db4a142c0) | :OE_PLATFORM_ERROR [/source/host/sgx/create.c:oe_sgx_build_enclave:837]
+2021-04-08T21:17:58-0300.298906Z [(H)ERROR] tid(0x7f1db4a142c0) | :OE_PLATFORM_ERROR [/source/host/sgx/create.c:oe_create_enclave:1031]

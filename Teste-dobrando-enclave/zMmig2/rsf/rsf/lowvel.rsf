@@ -1,0 +1,201 @@
+# 2-D Prestack (Shot profiles) dataset
+# Dimension: 1501x120x900 (1501 time samples, 120 geophones, 900 shots) 
+# Ask Mihai for more details.
+
+Segy:   mihai@hanauma   Tue Apr 20 13:12:56 1993
+		data_set_format="seplib"
+C 1 HALLIBURTON GEOPHYSICAL SERVICES
+C 2 GULF OF MEXICO SALT DOME DATA
+C 3 STANDARD SEGY FORMAT
+C 4 PRE-PROCESED SHOT ORGANIZED GATHERS
+C 5 SP 2521-3320, 120 TRACE DATA, 4 MSEC SAMPLE RATE
+C 6 CDP RANGE COVERED: 1401-3118, 60 CDP FOLD MAXIMUM
+C 7 PRE-DECON RAMP, SPHERICAL DIVERENGE, DECON APPLIED
+________________________________________________________________________________
+
+Geometry for the HGS 2-D Gulf dataset.
+
+
+                                                       859 Ft.      275 ft.
+                                                |--------------|--------|
+                 9760 Ft.                                               |
+|-----------------------------------------------|                       |
+                                                                O       | 
+                                                               /|_______|_______
+                                                             /  |              /
+                                                           /    |  BOAT       / 
+                                                         /      |____________/
+                                                       /        ## <- Source
+                                                     /                  | 
+                120 Geophone groups                                     |
+120   118 ...                               2  1                       /*\
+X  X  X  ...     X  X  X  X  X  X  X  X  X  X  X               Location of S.P.
+							     On maps and sections
+
+
+
+________________________________________________________________________________
+Segy.sh (a shell that runs seistape): mihai Tue Apr 20 13:49:31 PDT 1993
+ 
+ 
+output() : sets next in="/SDA/mihai/Gulf2D/tape.H@"
+n1=1501
+n2=120
+n3=800
+d1=0.004
+d2=25.
+d3=25.
+
+
+Window:   mihai@pele   Wed Apr 21 17:08:39 1993
+#	input history file /home/pele/SDA/mihai/Gulf2D/Gul2DShotData.H
+		input() :    in ="/SDA/mihai/Gulf2D/tape.H@"
+		output() : sets next in="/SDA/mihai/Gulf2DNearOffset.H@"
+		In:	float	Fortran (1501,120,800,1)	C [1][800][120][1501]
+		Out:	float	Fortran (1501,800,1,1)	C [1][1][800][1501]
+	 From History:
+		 n4=1 n3=800 n2=120 n1=1501 esize=4
+	 From Par:
+		 n1=1501  #f1=0  #j1=1  #min1=0  #max1=6
+		 n2=1  #f2=119  #j2=1  #min2=2975  #max2=2975
+		 n3=800  #f3=0  #j3=1  #min3=0  #max3=19975
+		 n4=1  #f4=0  #j4=1  #min4=0  #max4=0
+	 Make header useful for further processing:
+		 n1=1501 	 n2=800 	 n3=1 	 n4=1
+		 o1=0 	 o2=0 	 o3=2975 	 o4=0
+		 d1=0.004 	 d2=25 	 d3=25 	 d4=1
+		 label1="" 	 label2="" 	 label3="" 	 label4=""
+		data_format="xdr_float"
+
+
+
+Window:   dimitri@oas   Sun Apr 25 17:34:49 1993
+#	input history file /SDA/mihai/Gulf2D/Gulf2DNearOffset.H
+		input() :    in ="/SDA/mihai/Gulf2DNearOffset.H@"
+		output() : sets next in="/scr4/dimitri/Gulfnear.H@"
+		In:	float	Fortran (1501,800,1,1)	C [1][1][800][1501]
+		Out:	float	Fortran (1024,800,1,1)	C [1][1][800][1024]
+	 From History:
+		 n4=1 n3=1 n2=800 n1=1501 esize=4
+	 From Par:
+		 n1=1024  #f1=0  #j1=1  #min1=0  #max1=4.092
+		 n2=800  #f2=0  #j2=1  #min2=0  #max2=19975
+		 n3=1  #f3=0  #j3=1  #min3=2975  #max3=2975
+		 n4=1  #f4=0  #j4=1  #min4=0  #max4=0
+	 Make header useful for further processing:
+		 n1=1024 	 n2=800 	 n3=1 	 n4=1
+		 o1=0 	 o2=0 	 o3=2975 	 o4=0
+		 d1=0.004 	 d2=25 	 d3=25 	 d4=1
+		 label1="" 	 label2="" 	 label3="" 	 label4=""
+		data_format="xdr_float"
+
+
+
+Cp:   dimitri@oas   Tue Apr 27 18:04:44 1993
+#	input history file /home/oas/sep/dimitri/TA/HW5/Gulfnear.H
+		input() :    in ="/scr4/dimitri/Gulfnear.H@"
+		output() :    in ="/scr4/dimitri/Gulfnear.H@"
+		data_format="xdr_float"
+
+		output() : sets next in="/r5/prof/bei/krch/Exer/Dat/Gulfnear.H@"
+
+
+Cp:   dimitri@alpamayo   Wed Apr 20 11:57:37 1994
+#	input history file /wrk2/sep80/dimitri3/Gulfnear.HH
+		input() :    in ="/r5/prof/bei/krch/Exer/Dat/Gulfnear.H@"
+		output() : sets next in="/wrk2/sep80/dimitri3/_Gulfnear.HH@"
+		output() : sets next in="./Data/_Gulfnear.HH@"
+		data_format="xdr_float"
+
+1.7-svn	sfcp	sergey/Downloads/dimitri3:	sergey@sergey-OptiPlex-780	Sun Dec  7 13:21:49 2014
+
+	data_format="xdr_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfdd	openenclave/scons-files/sfmig2:	lucas@lucas-X580VD	Sat Mar 20 11:59:16 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfwindow	openenclave/scons-files/sfmig2:	lucas@lucas-X580VD	Sat Mar 20 11:59:16 2021
+
+	d2=25
+	o1=0
+	n2=480
+	o2=5000
+	label1=""
+	data_format="native_float"
+	label2=""
+	f2=200
+	esize=4
+	in="stdout"
+	d1=0.004
+	n1=1000
+	in="stdin"
+
+3.1.1	sfbandpass	openenclave/scons-files/sfmig2:	lucas@lucas-X580VD	Sat Mar 20 11:59:16 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfput	openenclave/scons-files/sfmig2:	lucas@lucas-X580VD	Sat Mar 20 11:59:16 2021
+
+	data_format="native_float"
+	o3=0
+	in="/var/tmp/openenclave/scons-files/sfmig2/data.rsf@"
+3.1.1	sfwindow	openenclave/scons-files/sfmig2:	lucas@lucas-X580VD	Sat Mar 20 11:59:16 2021
+
+	d2=25
+	o1=0
+	n2=1
+	o2=5000
+	label1=""
+	data_format="native_float"
+	label2=""
+	esize=4
+	in="stdout"
+	d1=0.004
+	n1=1000
+	in="stdin"
+
+3.1.1	sfspike	openenclave/scons-files/sfmig2:	lucas@lucas-X580VD	Sat Mar 20 11:59:16 2021
+
+	unit4="km"
+	d2=25
+	o1=0
+	n2=1
+	d3=25
+	o2=5000
+	n3=1
+	data_format="native_float"
+	d4=1
+	o3=0
+	n4=1
+	o4=0
+	esize=4
+	in="stdout"
+	unit1="s"
+	unit2="km"
+	unit3="km"
+	d1=0.004
+	n1=1000
+	in="stdin"
+
+3.1.1	sfcut	openenclave/scons-files/sfmig2:	lucas@lucas-X580VD	Sat Mar 20 11:59:16 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfmig2/water.rsf@"
+3.1.1	sfmath	openenclave/scons-files/sfmig2:	lucas@lucas-X580VD	Sat Mar 20 11:59:16 2021
+
+	input=0
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfmig2/lowvel.rsf@"
+	x1=1

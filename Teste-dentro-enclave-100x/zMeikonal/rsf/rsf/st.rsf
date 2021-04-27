@@ -1,0 +1,48 @@
+sfcp:	root@BEGPC132	Fri Jul 16 08:15:09 2004
+
+	d2=20.000000
+	o1=0.000000
+	n2=676
+	max_search=3
+	d3=20.000000
+	o2=0.000000
+	n3=676
+	data_format="xdr_float"
+	o3=0.000000
+	size=3
+	invert=1
+	esize=4
+	in="../Data/salt_slow_desp.HH@"
+	d1=20
+	n1=210
+	data_format="xdr_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfdd	openenclave/scons-files/sfeikonal:	lucas@lucas-X580VD	Sat Mar 20 11:57:33 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfeikonal/salt.rsf@"
+3.1.1	sfput	openenclave/scons-files/sfeikonal:	lucas@lucas-X580VD	Sat Mar 20 11:57:44 2021
+
+	data_format="native_float"
+	n2=456976
+	in="stdout"
+	n3=1
+	d2=0.0417788
+	in="stdin"
+
+3.1.1	sfwindow	openenclave/scons-files/sfeikonal:	lucas@lucas-X580VD	Sat Mar 20 11:57:44 2021
+
+	d2=28.2842
+	n2=676
+	o1=0
+	o2=0
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfeikonal/st.rsf@"
+	j2=677
+	d1=20
+	n1=210

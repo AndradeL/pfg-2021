@@ -1,0 +1,63 @@
+host/helloworldhost ./enclave/helloworldenc.signed n1=200 d2=.008 n2=200
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostOUsX4R"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %d
+str = 200
+snprintf_mylibc = %d
+str = 200
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %g
+str = 0
+snprintf_mylibc = %g
+str = 0
+snprintf_mylibc = %g
+str = 0.004
+snprintf_mylibc = %g
+str = 0.008
+sprintf_mylibc = "%s"
+str = "Time"
+sprintf_mylibc = "%s"
+str = "Lateral"
+sprintf_mylibc = "%s"
+str = "s"
+sprintf_mylibc = "%s"
+str = "km"
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 2026
+@@time_function = 4
+@@time_terminate = 39
+@@Time total = 2133

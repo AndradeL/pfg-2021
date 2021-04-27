@@ -1,0 +1,387 @@
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhost8TJOGx"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 58
+@@time_function = 30
+@@time_terminate = 2
+@@Time total = 191
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostsk3D1s"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 58
+@@time_function = 10
+@@time_terminate = 3
+@@Time total = 101
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostYxn0Z8"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 58
+@@time_function = 10
+@@time_terminate = 3
+@@Time total = 207
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostSF8VXD"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 60
+@@time_function = 10
+@@time_terminate = 2
+@@Time total = 135
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhost5lHyXw"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 59
+@@time_function = 10
+@@time_terminate = 2
+@@Time total = 104
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostrJsKk5"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 59
+@@time_function = 10
+@@time_terminate = 2
+@@Time total = 113
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostVw2hwu"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 59
+@@time_function = 10
+@@time_terminate = 2
+@@Time total = 134
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostwwr8fP"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 60
+@@time_function = 10
+@@time_terminate = 3
+@@Time total = 200
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostii3XjN"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 59
+@@time_function = 10
+@@time_terminate = 2
+@@Time total = 138
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhost98fqmV"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 62
+@@time_function = 11
+@@time_terminate = 2
+@@Time total = 98
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostvTEHW0"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 85
+@@time_function = 239
+@@time_terminate = 5
+@@Time total = 425
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostRojCfM"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 61
+@@time_function = 38
+@@time_terminate = 2
+@@Time total = 145
+2020-12-20T16:01:40-0300.804537Z [(H)ERROR] tid(0x7f4e2b19a2c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+2020-12-20T16:01:40-0300.804547Z [(H)ERROR] tid(0x7f4e2b19a2c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+2020-12-20T16:01:40-0300.804551Z [(H)ERROR] tid(0x7f4e2b19a2c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+2020-12-20T16:01:40-0300.804555Z [(H)ERROR] tid(0x7f4e2b19a2c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+2020-12-20T16:01:40-0300.804559Z [(H)ERROR] tid(0x7f4e2b19a2c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+2020-12-20T16:01:40-0300.804563Z [(H)ERROR] tid(0x7f4e2b19a2c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+2020-12-20T16:01:40-0300.804567Z [(H)ERROR] tid(0x7f4e2b19a2c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+43
+96
+99
+99
+96
+100
+97
+164
+103
+97
+99
+2020-12-20T16:03:08-0300.696874Z [(H)ERROR] tid(0x7fcf746c52c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+2020-12-20T16:03:08-0300.696884Z [(H)ERROR] tid(0x7fcf746c52c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+2020-12-20T16:03:08-0300.696888Z [(H)ERROR] tid(0x7fcf746c52c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+2020-12-20T16:03:08-0300.696893Z [(H)ERROR] tid(0x7fcf746c52c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+59
+131
+95
+101
+101

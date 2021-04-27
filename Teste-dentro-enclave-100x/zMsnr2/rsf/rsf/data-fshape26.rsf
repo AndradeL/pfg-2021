@@ -1,0 +1,2432 @@
+3.1.1	sfspike	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:03 2021
+
+	d2=0.1
+	o1=0
+	n2=256
+	o2=0
+	label1="Time"
+	data_format="native_float"
+	label2="Trace"
+	esize=4
+	in="stdout"
+	unit1="s"
+	d1=0.004
+	n1=512
+	in="stdin"
+
+3.1.1	sfricker1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:03 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfnoise	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:03 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfput	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:03 2021
+
+	data_format="native_float"
+	d2=1
+	in="/var/tmp/openenclave/scons-files/sfsnr2/complex.rsf@"
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:03 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/complex-zero.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape1.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape2.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape3.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:07 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape4.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape5.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape6.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape7.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape8.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape9.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape10.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape11.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape12.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape13.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape14.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:08 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape15.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape16.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape17.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape18.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape19.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape20.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape21.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape22.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape23.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape24.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:09 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape25.rsf@"
+3.1.1	sfrtoc	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:10 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:10 2021
+
+	o1=-125
+	fft3_o1=0
+	label1="Frequency"
+	fft3_label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="Hz"
+	d1=0.244141
+	n1=1024
+	fft3_n1=512
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:10 2021
+
+	d2=0.00195312
+	n2=512
+	fft3_n2=256
+	o2=-0.5
+	fft3_o2=0
+	data_format="native_complex"
+	label2="Wavenumber"
+	fft3_label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfthreshold1	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:10 2021
+
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:10 2021
+
+	d2=1
+	n2=256
+	o2=0
+	data_format="native_complex"
+	label2="Trace"
+	esize=8
+	in="stdout"
+	in="stdin"
+
+3.1.1	sffft3	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:10 2021
+
+	o1=0
+	label1="Time"
+	data_format="native_complex"
+	esize=8
+	in="stdout"
+	unit1="s"
+	d1=0.00399999
+	n1=512
+	in="stdin"
+
+3.1.1	sfreal	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:10 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfmul	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:10 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:10 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfsnr2:	lucas@lucas-X580VD	Sat Mar 20 12:04:10 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfsnr2/data-fshape26.rsf@"

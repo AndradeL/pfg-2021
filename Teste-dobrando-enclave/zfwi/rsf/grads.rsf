@@ -1,0 +1,15 @@
+3.1-git	helloworldhost	teste-new/Teste-dobrando-enclave/zfwi:	luislacalle@luislacalle-G3-3590	Mon Dec  7 04:41:36 2020
+
+	d2=32
+	n2=288
+	label1="Depth"
+	d3=1
+	n3=3
+	data_format="native_float"
+	label2="Distance"
+	o3=1
+	label3="Iteration"
+	esize=4
+	in="/var/tmp/helloworldhostCE2fHM"
+	d1=32
+	n1=94

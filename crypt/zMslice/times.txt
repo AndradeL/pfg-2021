@@ -1,0 +1,1120 @@
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostniEwSV"
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = n%d
+str = n2
+sprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = o%d
+str = o3
+snprintf_mylibc = %g
+str = 7.705
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = d%d
+str = d3
+snprintf_mylibc = %g
+str = 0.0335
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = "%s"
+str = "midpoint(km)"
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = n%d
+str = n3
+sprintf_mylibc = n%d
+str = n4
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o3
+sprintf_mylibc = o%d
+str = o4
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = d%d
+str = d3
+sprintf_mylibc = d%d
+str = d4
+snprintf_mylibc = %g
+str = 1
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = label%d
+str = label4
+sprintf_mylibc = "%s"
+str = ""
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = unit%d
+str = unit4
+sprintf_mylibc = n%d
+str = n4
+sprintf_mylibc = n%d
+str = n5
+snprintf_mylibc = %d
+str = 1
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 58
+@@time_function = 59
+@@time_terminate = 3
+@@Time total = 172
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostEJwg8G"
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = n%d
+str = n2
+sprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = o%d
+str = o3
+snprintf_mylibc = %g
+str = 7.705
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = d%d
+str = d3
+snprintf_mylibc = %g
+str = 0.0335
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = "%s"
+str = "midpoint(km)"
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = n%d
+str = n3
+sprintf_mylibc = n%d
+str = n4
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o3
+sprintf_mylibc = o%d
+str = o4
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = d%d
+str = d3
+sprintf_mylibc = d%d
+str = d4
+snprintf_mylibc = %g
+str = 1
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = label%d
+str = label4
+sprintf_mylibc = "%s"
+str = ""
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = unit%d
+str = unit4
+sprintf_mylibc = n%d
+str = n4
+sprintf_mylibc = n%d
+str = n5
+snprintf_mylibc = %d
+str = 1
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 59
+@@time_function = 22
+@@time_terminate = 2
+@@Time total = 106
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostANB2Vw"
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = n%d
+str = n2
+sprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = o%d
+str = o3
+snprintf_mylibc = %g
+str = 7.705
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = d%d
+str = d3
+snprintf_mylibc = %g
+str = 0.0335
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = "%s"
+str = "midpoint(km)"
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = n%d
+str = n3
+sprintf_mylibc = n%d
+str = n4
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o3
+sprintf_mylibc = o%d
+str = o4
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = d%d
+str = d3
+sprintf_mylibc = d%d
+str = d4
+snprintf_mylibc = %g
+str = 1
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = label%d
+str = label4
+sprintf_mylibc = "%s"
+str = ""
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = unit%d
+str = unit4
+sprintf_mylibc = n%d
+str = n4
+sprintf_mylibc = n%d
+str = n5
+snprintf_mylibc = %d
+str = 1
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 60
+@@time_function = 21
+@@time_terminate = 2
+@@Time total = 100
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostKRKArT"
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = n%d
+str = n2
+sprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = o%d
+str = o3
+snprintf_mylibc = %g
+str = 7.705
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = d%d
+str = d3
+snprintf_mylibc = %g
+str = 0.0335
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = "%s"
+str = "midpoint(km)"
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = n%d
+str = n3
+sprintf_mylibc = n%d
+str = n4
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o3
+sprintf_mylibc = o%d
+str = o4
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = d%d
+str = d3
+sprintf_mylibc = d%d
+str = d4
+snprintf_mylibc = %g
+str = 1
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = label%d
+str = label4
+sprintf_mylibc = "%s"
+str = ""
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = unit%d
+str = unit4
+sprintf_mylibc = n%d
+str = n4
+sprintf_mylibc = n%d
+str = n5
+snprintf_mylibc = %d
+str = 1
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 60
+@@time_function = 20
+@@time_terminate = 3
+@@Time total = 105
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostjRyNLw"
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = n%d
+str = n2
+sprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = o%d
+str = o3
+snprintf_mylibc = %g
+str = 7.705
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = d%d
+str = d3
+snprintf_mylibc = %g
+str = 0.0335
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = "%s"
+str = "midpoint(km)"
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = n%d
+str = n3
+sprintf_mylibc = n%d
+str = n4
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o3
+sprintf_mylibc = o%d
+str = o4
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = d%d
+str = d3
+sprintf_mylibc = d%d
+str = d4
+snprintf_mylibc = %g
+str = 1
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = label%d
+str = label4
+sprintf_mylibc = "%s"
+str = ""
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = unit%d
+str = unit4
+sprintf_mylibc = n%d
+str = n4
+sprintf_mylibc = n%d
+str = n5
+snprintf_mylibc = %d
+str = 1
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 58
+@@time_function = 21
+@@time_terminate = 2
+@@Time total = 174
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostLAEzmd"
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = n%d
+str = n2
+sprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = o%d
+str = o3
+snprintf_mylibc = %g
+str = 7.705
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = d%d
+str = d3
+snprintf_mylibc = %g
+str = 0.0335
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = "%s"
+str = "midpoint(km)"
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = n%d
+str = n3
+sprintf_mylibc = n%d
+str = n4
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o3
+sprintf_mylibc = o%d
+str = o4
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = d%d
+str = d3
+sprintf_mylibc = d%d
+str = d4
+snprintf_mylibc = %g
+str = 1
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = label%d
+str = label4
+sprintf_mylibc = "%s"
+str = ""
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = unit%d
+str = unit4
+sprintf_mylibc = n%d
+str = n4
+sprintf_mylibc = n%d
+str = n5
+snprintf_mylibc = %d
+str = 1
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 60
+@@time_function = 21
+@@time_terminate = 2
+@@Time total = 201
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostCErV9i"
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = n%d
+str = n2
+sprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = o%d
+str = o3
+snprintf_mylibc = %g
+str = 7.705
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = d%d
+str = d3
+snprintf_mylibc = %g
+str = 0.0335
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = "%s"
+str = "midpoint(km)"
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = n%d
+str = n3
+sprintf_mylibc = n%d
+str = n4
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o3
+sprintf_mylibc = o%d
+str = o4
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = d%d
+str = d3
+sprintf_mylibc = d%d
+str = d4
+snprintf_mylibc = %g
+str = 1
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = label%d
+str = label4
+sprintf_mylibc = "%s"
+str = ""
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = unit%d
+str = unit4
+sprintf_mylibc = n%d
+str = n4
+sprintf_mylibc = n%d
+str = n5
+snprintf_mylibc = %d
+str = 1
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 59
+@@time_function = 21
+@@time_terminate = 2
+@@Time total = 160
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostuiScwW"
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = n%d
+str = n2
+sprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = o%d
+str = o3
+snprintf_mylibc = %g
+str = 7.705
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = d%d
+str = d3
+snprintf_mylibc = %g
+str = 0.0335
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = "%s"
+str = "midpoint(km)"
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = n%d
+str = n3
+sprintf_mylibc = n%d
+str = n4
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o3
+sprintf_mylibc = o%d
+str = o4
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = d%d
+str = d3
+sprintf_mylibc = d%d
+str = d4
+snprintf_mylibc = %g
+str = 1
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = label%d
+str = label4
+sprintf_mylibc = "%s"
+str = ""
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = unit%d
+str = unit4
+sprintf_mylibc = n%d
+str = n4
+sprintf_mylibc = n%d
+str = n5
+snprintf_mylibc = %d
+str = 1
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 58
+@@time_function = 21
+@@time_terminate = 2
+@@Time total = 114
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostO3Pq46"
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = n%d
+str = n2
+sprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = o%d
+str = o3
+snprintf_mylibc = %g
+str = 7.705
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = d%d
+str = d3
+snprintf_mylibc = %g
+str = 0.0335
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = "%s"
+str = "midpoint(km)"
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = n%d
+str = n3
+sprintf_mylibc = n%d
+str = n4
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o3
+sprintf_mylibc = o%d
+str = o4
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = d%d
+str = d3
+sprintf_mylibc = d%d
+str = d4
+snprintf_mylibc = %g
+str = 1
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = label%d
+str = label4
+sprintf_mylibc = "%s"
+str = ""
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = unit%d
+str = unit4
+sprintf_mylibc = n%d
+str = n4
+sprintf_mylibc = n%d
+str = n5
+snprintf_mylibc = %d
+str = 1
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 59
+@@time_function = 22
+@@time_terminate = 2
+@@Time total = 127
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhosty9jBC7"
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = n%d
+str = n2
+sprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o2
+sprintf_mylibc = o%d
+str = o3
+snprintf_mylibc = %g
+str = 7.705
+sprintf_mylibc = d%d
+str = d2
+sprintf_mylibc = d%d
+str = d3
+snprintf_mylibc = %g
+str = 0.0335
+sprintf_mylibc = label%d
+str = label2
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = "%s"
+str = "midpoint(km)"
+sprintf_mylibc = unit%d
+str = unit2
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = n%d
+str = n3
+sprintf_mylibc = n%d
+str = n4
+snprintf_mylibc = %d
+str = 1
+sprintf_mylibc = o%d
+str = o3
+sprintf_mylibc = o%d
+str = o4
+snprintf_mylibc = %g
+str = 0
+sprintf_mylibc = d%d
+str = d3
+sprintf_mylibc = d%d
+str = d4
+snprintf_mylibc = %g
+str = 1
+sprintf_mylibc = label%d
+str = label3
+sprintf_mylibc = label%d
+str = label4
+sprintf_mylibc = "%s"
+str = ""
+sprintf_mylibc = unit%d
+str = unit3
+sprintf_mylibc = unit%d
+str = unit4
+sprintf_mylibc = n%d
+str = n4
+sprintf_mylibc = n%d
+str = n5
+snprintf_mylibc = %d
+str = 1
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 59
+@@time_function = 21
+@@time_terminate = 2
+@@Time total = 116

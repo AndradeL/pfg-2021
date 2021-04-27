@@ -1,0 +1,546 @@
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMeikonal
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMeikonal/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMeikonal/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fastmarch.c -o fastmarch.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o fastmarch.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMeikonal/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMeikonal/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed vel=0 zshot=1500 >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMhelicon
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMhelicon/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMhelicon/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 regrid.c -o regrid.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o regrid.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMhelicon/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMhelicon/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed filt=rsf/horz.rsf adj=0 div=0 >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMkirmod
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMkirmod/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMkirmod/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 kirmod.c -o kirmod.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 kirmod2.c -o kirmod2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 ricker.c -o ricker.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o kirmod.o kirmod2.o ricker.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMkirmod/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMkirmod/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed nt=501 dt=0.004 freq=25 refl=rsf/refl.rsf ns=12 s0=1.4 ds=-0.1 nh=64 h0=0.1 dh=0.1 vel=5 gradz=2 type=v >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMlinear
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMlinear/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMlinear/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 linear.c -o linear.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o linear.o -lrsf -lblas mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMlinear/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMlinear/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed n1=64 d1=0.004 o1=0 >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMmf
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMmf/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMmf/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 boundary.c -o boundary.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o boundary.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMmf/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMmf/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed nfw=11 >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMmig2
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMmig2/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMmig2/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMmig2/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMmig2/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMpwd
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMpwd/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMpwd/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 allp3.c -o allp3.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 apfilt.c -o apfilt.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o allp3.o apfilt.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMpwd/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMpwd/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed dip=rsf/gom-dip.rsf >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMricker1
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMricker1/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMricker1/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 kirmod.c -o kirmod.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 kirmod2.c -o kirmod2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 ricker.c -o ricker.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o kirmod.o kirmod2.o ricker.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMricker1/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMricker1/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed freq=25 >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMsigmoid
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMsigmoid/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMsigmoid/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 random.c -o random.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o random.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMsigmoid/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMsigmoid/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed n1=200 d2=.008 n2=200 >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMslice
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMslice/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMslice/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMslice/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMslice/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed pick=rsf/rms.rsf >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMsnr2
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMsnr2/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMsnr2/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMsnr2/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMsnr2/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMunif2
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMunif2/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMunif2/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMunif2/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zMunif2/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed d1=0.0101 n1=199 v00=1.508,1.581,1.69,1.826,2.0 >> times.txt
+Makefile:18: recipe for target 'run' failed
+/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zfwi
+make -C enclave
+make[1]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zfwi/enclave'
+make build
+make[2]: Entering directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zfwi/enclave'
+Compilers used: gcc, g++
+oeedger8r ../helloworld.edl --trusted \
+	--search-path /opt/openenclave/share/pkgconfig/../../include \
+	--search-path /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx
+Generating edge routine, for the Open Enclave SDK.
+Processing ../helloworld.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/syscall.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/epoll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/fcntl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/ioctl.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/poll.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/signal.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/socket.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/time.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/unistd.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/utsname.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/platform.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/attestation.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/cpu.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/debug.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/thread.edl.
+Processing /opt/openenclave/share/pkgconfig/../../include/openenclave/edl/sgx/switchless.edl.
+Success.
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 fwi.c -o fwi.o
+objcopy --redefine-sym main=fwi fwi.o fwi2.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+gcc -g -c -D NO_BLAS -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 enc.c -o enc.o
+gcc -g -c -O3 -I/home/lucas/.madagascar/include -nostdinc -m64 -fPIE -ftls-model=local-exec -fvisibility=hidden -fstack-protector-strong -fno-omit-frame-pointer -ffunction-sections -fdata-sections -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty/libc -I/opt/openenclave/share/pkgconfig/../../include/openenclave/3rdparty -I/opt/openenclave/share/pkgconfig/../../include -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+gcc -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o -lrsf mylibc.o enc.o -L/home/lucas/.madagascar/lib -L/opt/openenclave/share/pkgconfig/../../lib/openenclave/enclave -nostdlib -nodefaultlibs -nostartfiles -Wl,--no-undefined -Wl,-Bstatic -Wl,-Bsymbolic -Wl,--export-dynamic -Wl,-pie -Wl,--build-id -Wl,-z,noexecstack -Wl,-z,now -Wl,-gc-sections -loeenclave -loelibc -loesyscall -loecore
+Makefile:27: recipe for target 'build' failed
+make[2]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zfwi/enclave'
+Makefile:22: recipe for target 'all' failed
+make[1]: Leaving directory '/home/lucas/Desktop/openenclave/teste-new/Teste-dentro-enclave/zfwi/enclave'
+Makefile:10: recipe for target 'build' failed
+host/helloworldhost ./enclave/helloworldenc.signed >> times.txt
+Makefile:18: recipe for target 'run' failed

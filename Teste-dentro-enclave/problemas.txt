@@ -1,0 +1,16 @@
+1o problema: link
+resolucao:
+-loecryptoopenssl -lopensslcrypto -loelibc
+
+zMlinear ainda nao funciona
+
+2o problema: segunda vez que fui rodar deu "result" duplicado nas structs geradas pelo oeedger8r
+resolucao:
+renomear todos os "result" por "__result"
+
+3o problema: "calling into function_main failed: result=19 (OE_ENCLAVE_ABORTING)" ao rodar na maioria dos testes
+
+os que funciona o run:
+zMeikonal
+zMricker1
+zMsigmoid

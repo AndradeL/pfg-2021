@@ -1,0 +1,62 @@
+3.1.1	sfspike	openenclave/scons-files/sfkirmod:	lucas@lucas-X580VD	Sat Mar 20 11:57:48 2021
+
+	d2=0.1
+	o1=-8
+	n2=4
+	o2=0
+	label1="Time"
+	data_format="native_float"
+	label2="Distance"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfkirmod/modl.rsf@"
+	unit1="s"
+	unit2="km"
+	d1=0.08
+	n1=200
+3.1.1	sfkirmod	openenclave/scons-files/sfkirmod:	lucas@lucas-X580VD	Sat Mar 20 11:57:49 2021
+
+	d2=0.1
+	n2=64
+	o1=0
+	o2=0.1
+	n3=12
+	d3=-0.1
+	label1="Time"
+	data_format="native_float"
+	o3=1.4
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfkirmod/clean.rsf@"
+	unit1="s"
+	d1=0.004
+	n1=501
+3.1.1	sfnoise	openenclave/scons-files/sfkirmod:	lucas@lucas-X580VD	Sat Mar 20 11:57:49 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfricker1	openenclave/scons-files/sfkirmod:	lucas@lucas-X580VD	Sat Mar 20 11:57:49 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfadd	openenclave/scons-files/sfkirmod:	lucas@lucas-X580VD	Sat Mar 20 11:57:49 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfkirmod/data.rsf@"
+3.1.1	sfheaderwindow	openenclave/scons-files/sfkirmod:	lucas@lucas-X580VD	Sat Mar 20 11:57:49 2021
+
+	n2=12
+	n3=1
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfkirmod/cdp1500.rsf@"
+3.1.1	sfnmo	openenclave/scons-files/sfkirmod:	lucas@lucas-X580VD	Sat Mar 20 11:57:49 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/sfkirmod/nmo1500.rsf@"

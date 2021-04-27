@@ -1,0 +1,13 @@
+38
+39
+41
+38
+42
+37
+39
+38
+41
+38
+38
+2020-12-20T20:12:47-0300.085049Z [(H)ERROR] tid(0x7f7ce3af02c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+38

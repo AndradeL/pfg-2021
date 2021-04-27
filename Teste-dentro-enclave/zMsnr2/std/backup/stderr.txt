@@ -1,0 +1,200 @@
+helloworldhost: iter=0
+helloworldhost: obj=0.000141  beta=0.000000  epsil=123.959488  alpha=0.001064
+helloworldhost: iter=1
+helloworldhost: obj=0.000389  beta=15.252663  epsil=7.789780  alpha=0.000061
+helloworldhost: iter=2
+helloworldhost: obj=0.000404  beta=0.149520  epsil=94.041389  alpha=0.000408
+helloworldhost: iter=3
+helloworldhost: obj=0.000547  beta=1.017502  epsil=46.227768  alpha=0.000640
+helloworldhost: iter=4
+helloworldhost: obj=0.000784  beta=0.569953  epsil=30.884693  alpha=0.000654
+helloworldhost: iter=5
+helloworldhost: obj=0.000812  beta=0.852144  epsil=67.603867  alpha=0.000718
+helloworldhost: iter=6
+helloworldhost: obj=0.000986  beta=0.873975  epsil=64.829155  alpha=0.001095
+helloworldhost: iter=7
+helloworldhost: obj=0.000961  beta=0.986906  epsil=35.183853  alpha=0.000615
+helloworldhost: iter=8
+helloworldhost: obj=0.000967  beta=0.638704  epsil=95.083595  alpha=0.001253
+helloworldhost: iter=9
+helloworldhost: obj=0.000987  beta=1.916470  epsil=45.995354  alpha=0.000754
+helloworldhost: iter=10
+helloworldhost: obj=0.000945  beta=0.259548  epsil=65.562332  alpha=0.001186
+helloworldhost: iter=11
+helloworldhost: obj=0.000907  beta=0.941117  epsil=51.513496  alpha=0.001089
+helloworldhost: iter=12
+helloworldhost: obj=0.000956  beta=3.000284  epsil=29.650478  alpha=0.000189
+helloworldhost: iter=13
+helloworldhost: obj=0.000924  beta=0.342038  epsil=35.008438  alpha=0.000746
+helloworldhost: iter=14
+helloworldhost: obj=0.000959  beta=1.549797  epsil=34.358437  alpha=0.000428
+helloworldhost: iter=15
+helloworldhost: obj=0.000914  beta=0.366498  epsil=36.921673  alpha=0.000739
+helloworldhost: iter=16
+helloworldhost: obj=0.000940  beta=0.928704  epsil=29.195299  alpha=0.000548
+helloworldhost: iter=17
+helloworldhost: obj=0.000962  beta=1.080235  epsil=38.519688  alpha=0.000448
+helloworldhost: iter=18
+helloworldhost: obj=0.000985  beta=0.199562  epsil=65.794823  alpha=0.001048
+helloworldhost: iter=19
+helloworldhost: obj=0.000941  beta=0.845960  epsil=77.175644  alpha=0.001129
+helloworldhost: iter=20
+helloworldhost: obj=0.000925  beta=0.773292  epsil=85.630066  alpha=0.000770
+helloworldhost: iter=21
+helloworldhost: obj=0.000903  beta=0.569623  epsil=87.559654  alpha=0.000911
+helloworldhost: iter=22
+helloworldhost: obj=0.000949  beta=1.508855  epsil=53.561909  alpha=0.000523
+helloworldhost: iter=23
+helloworldhost: obj=0.000891  beta=0.268342  epsil=102.288666  alpha=0.001064
+helloworldhost: iter=24
+helloworldhost: obj=0.000908  beta=0.531705  epsil=76.891251  alpha=0.001084
+helloworldhost: iter=25
+helloworldhost: obj=0.000925  beta=3.646199  epsil=36.088509  alpha=0.000257
+helloworldhost: iter=26
+helloworldhost: obj=0.000896  beta=0.000000  epsil=56.950130  alpha=0.000747
+helloworldhost: iter=27
+helloworldhost: obj=0.000899  beta=0.303351  epsil=97.280617  alpha=0.001024
+helloworldhost: iter=28
+helloworldhost: obj=0.000887  beta=1.431916  epsil=53.713669  alpha=0.000579
+helloworldhost: iter=29
+helloworldhost: obj=0.000943  beta=0.714409  epsil=68.253036  alpha=0.000696
+helloworldhost: iter=30
+helloworldhost: obj=0.000936  beta=0.730009  epsil=46.260033  alpha=0.000559
+helloworldhost: iter=31
+helloworldhost: obj=0.000960  beta=1.452192  epsil=25.482834  alpha=0.000327
+helloworldhost: iter=32
+helloworldhost: obj=0.000973  beta=0.385423  epsil=36.200100  alpha=0.000676
+helloworldhost: iter=33
+helloworldhost: obj=0.000935  beta=1.085874  epsil=28.739847  alpha=0.000500
+helloworldhost: iter=34
+helloworldhost: obj=0.000921  beta=0.321780  epsil=34.696747  alpha=0.000812
+helloworldhost: iter=35
+helloworldhost: obj=0.000944  beta=1.659623  epsil=40.173759  alpha=0.000322
+helloworldhost: iter=36
+helloworldhost: obj=0.000904  beta=0.430724  epsil=43.613644  alpha=0.000817
+helloworldhost: iter=37
+helloworldhost: obj=0.000899  beta=0.872067  epsil=65.919907  alpha=0.000438
+helloworldhost: iter=38
+helloworldhost: obj=0.000877  beta=0.595824  epsil=91.789185  alpha=0.001568
+helloworldhost: iter=39
+helloworldhost: obj=0.000922  beta=1.550232  epsil=42.717621  alpha=0.000755
+helloworldhost: iter=40
+helloworldhost: obj=0.000929  beta=0.781453  epsil=56.108387  alpha=0.000937
+helloworldhost: iter=41
+helloworldhost: obj=0.000926  beta=1.045838  epsil=38.671181  alpha=0.000560
+helloworldhost: iter=42
+helloworldhost: obj=0.000909  beta=0.462610  epsil=98.427429  alpha=0.001341
+helloworldhost: iter=43
+helloworldhost: obj=0.000911  beta=1.200658  epsil=51.124332  alpha=0.000696
+helloworldhost: iter=44
+helloworldhost: obj=0.000933  beta=0.936787  epsil=78.797852  alpha=0.000413
+helloworldhost: iter=45
+helloworldhost: obj=0.000909  beta=0.994865  epsil=40.433868  alpha=0.000839
+helloworldhost: iter=46
+helloworldhost: obj=0.000927  beta=0.393161  epsil=64.562370  alpha=0.000658
+helloworldhost: iter=47
+helloworldhost: obj=0.000916  beta=0.739477  epsil=62.307091  alpha=0.000675
+helloworldhost: iter=48
+helloworldhost: obj=0.000939  beta=1.281990  epsil=63.876633  alpha=0.000817
+helloworldhost: iter=49
+helloworldhost: obj=0.000919  beta=0.602337  epsil=60.842068  alpha=0.000843
+helloworldhost: iter=50
+helloworldhost: obj=0.000891  beta=0.513283  epsil=83.043633  alpha=0.001025
+helloworldhost: iter=51
+helloworldhost: obj=0.000920  beta=1.599411  epsil=70.903343  alpha=0.000733
+helloworldhost: iter=52
+helloworldhost: obj=0.000949  beta=0.749547  epsil=59.045795  alpha=0.000911
+helloworldhost: iter=53
+helloworldhost: obj=0.000906  beta=1.018358  epsil=39.742947  alpha=0.000738
+helloworldhost: iter=54
+helloworldhost: obj=0.000884  beta=0.386005  epsil=101.766472  alpha=0.001115
+helloworldhost: iter=55
+helloworldhost: obj=0.000889  beta=1.398856  epsil=61.954906  alpha=0.000598
+helloworldhost: iter=56
+helloworldhost: obj=0.000932  beta=0.995502  epsil=75.094414  alpha=0.000665
+helloworldhost: iter=57
+helloworldhost: obj=0.000911  beta=1.384837  epsil=51.672234  alpha=0.000503
+helloworldhost: iter=58
+helloworldhost: obj=0.000907  beta=0.453578  epsil=53.207615  alpha=0.000761
+helloworldhost: iter=59
+helloworldhost: obj=0.000941  beta=0.580292  epsil=89.936386  alpha=0.001332
+helloworldhost: iter=60
+helloworldhost: obj=0.000915  beta=1.222828  epsil=47.904827  alpha=0.000755
+helloworldhost: iter=61
+helloworldhost: obj=0.000932  beta=0.673896  epsil=125.321129  alpha=0.001591
+helloworldhost: iter=62
+helloworldhost: obj=0.000871  beta=0.923760  epsil=74.431145  alpha=0.001030
+helloworldhost: iter=63
+helloworldhost: obj=0.000901  beta=2.383454  epsil=37.522518  alpha=0.000257
+helloworldhost: iter=64
+helloworldhost: obj=0.000921  beta=0.307903  epsil=52.370392  alpha=0.000819
+helloworldhost: iter=65
+helloworldhost: obj=0.000884  beta=1.104440  epsil=58.875038  alpha=0.000753
+helloworldhost: iter=66
+helloworldhost: obj=0.000939  beta=0.801968  epsil=47.707115  alpha=0.000994
+helloworldhost: iter=67
+helloworldhost: obj=0.000941  beta=0.871809  epsil=46.579605  alpha=0.000816
+helloworldhost: iter=68
+helloworldhost: obj=0.000949  beta=0.731834  epsil=41.919781  alpha=0.000809
+helloworldhost: iter=69
+helloworldhost: obj=0.000978  beta=1.812350  epsil=37.324924  alpha=0.000328
+helloworldhost: iter=70
+helloworldhost: obj=0.000936  beta=0.207909  epsil=34.345257  alpha=0.000811
+helloworldhost: iter=71
+helloworldhost: obj=0.000939  beta=0.346590  epsil=157.997513  alpha=0.001314
+helloworldhost: iter=72
+helloworldhost: obj=0.000925  beta=2.620654  epsil=40.423717  alpha=0.000457
+helloworldhost: iter=73
+helloworldhost: obj=0.001021  beta=0.597693  epsil=35.283764  alpha=0.000584
+helloworldhost: iter=74
+helloworldhost: obj=0.000925  beta=0.619175  epsil=37.133587  alpha=0.000605
+helloworldhost: iter=75
+helloworldhost: obj=0.000917  beta=0.457593  epsil=59.289089  alpha=0.001269
+helloworldhost: iter=76
+helloworldhost: obj=0.000900  beta=0.460069  epsil=64.184593  alpha=0.000816
+helloworldhost: iter=77
+helloworldhost: obj=0.001003  beta=1.023849  epsil=48.653996  alpha=0.000765
+helloworldhost: iter=78
+helloworldhost: obj=0.000907  beta=0.822322  epsil=90.622620  alpha=0.000686
+helloworldhost: iter=79
+helloworldhost: obj=0.000929  beta=0.947182  epsil=27.175604  alpha=0.000644
+helloworldhost: iter=80
+helloworldhost: obj=0.000911  beta=0.448283  epsil=36.188824  alpha=0.000594
+helloworldhost: iter=81
+helloworldhost: obj=0.000900  beta=0.781201  epsil=30.787714  alpha=0.000622
+helloworldhost: iter=82
+helloworldhost: obj=0.000897  beta=0.547954  epsil=71.785240  alpha=0.000886
+helloworldhost: iter=83
+helloworldhost: obj=0.000938  beta=0.637531  epsil=96.852257  alpha=0.001010
+helloworldhost: iter=84
+helloworldhost: obj=0.000931  beta=3.025518  epsil=18.117073  alpha=0.000237
+helloworldhost: iter=85
+helloworldhost: obj=0.000891  beta=0.375160  epsil=80.796684  alpha=0.000904
+helloworldhost: iter=86
+helloworldhost: obj=0.000911  beta=0.568291  epsil=105.869812  alpha=0.000793
+helloworldhost: iter=87
+helloworldhost: obj=0.000905  beta=0.820286  epsil=37.820648  alpha=0.000789
+helloworldhost: iter=88
+helloworldhost: obj=0.000899  beta=0.825338  epsil=84.098694  alpha=0.000749
+helloworldhost: iter=89
+helloworldhost: obj=0.000924  beta=1.056750  epsil=50.655136  alpha=0.000520
+helloworldhost: iter=90
+helloworldhost: obj=0.000891  beta=1.050554  epsil=35.772442  alpha=0.000646
+helloworldhost: iter=91
+helloworldhost: obj=0.000927  beta=0.622387  epsil=44.613373  alpha=0.000743
+helloworldhost: iter=92
+helloworldhost: obj=0.000889  beta=1.596017  epsil=24.878954  alpha=0.000270
+helloworldhost: iter=93
+helloworldhost: obj=0.000962  beta=0.598270  epsil=105.563835  alpha=0.001223
+helloworldhost: iter=94
+helloworldhost: obj=0.000928  beta=0.855010  epsil=40.113495  alpha=0.000523
+helloworldhost: iter=95
+helloworldhost: obj=0.000922  beta=0.639261  epsil=49.271530  alpha=0.000617
+helloworldhost: iter=96
+helloworldhost: obj=0.000924  beta=0.859264  epsil=55.782772  alpha=0.000565
+helloworldhost: iter=97
+helloworldhost: obj=0.000954  beta=0.420959  epsil=70.058685  alpha=0.001197
+helloworldhost: iter=98
+helloworldhost: obj=0.000898  beta=0.916987  epsil=67.692871  alpha=0.001038
+helloworldhost: iter=99
+helloworldhost: obj=0.000911  beta=1.162524  epsil=71.383537  alpha=0.000916

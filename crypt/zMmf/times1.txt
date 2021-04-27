@@ -1,0 +1,427 @@
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+WRITE AQUI11!
+filelen = 0
+write result = 80
+WRITE AQUI11!
+filelen = 96
+write result = 1
+WRITE AQUI11!
+filelen = 96
+write result = 6
+WRITE AQUI11!
+filelen = 96
+write result = 11
+WRITE AQUI11!
+filelen = 112
+write result = 28
+WRITE AQUI11!
+filelen = 128
+write result = 18
+WRITE AQUI11!
+filelen = 160
+write result = 9
+WRITE AQUI11!
+filelen = 160
+write result = 37
+WRITE AQUI11!
+filelen = 192
+write result = 10
+WRITE AQUI11!
+filelen = 208
+write result = 9
+WRITE AQUI11!
+filelen = 224
+write result = 78
+WRITE AQUI11!
+filelen = 288
+write result = 1
+WRITE AQUI11!
+filelen = 304
+write result = 6
+WRITE AQUI11!
+filelen = 304
+write result = 7
+WRITE AQUI11!
+filelen = 304
+write result = 6
+WRITE AQUI11!
+filelen = 320
+write result = 6
+WRITE AQUI11!
+filelen = 320
+write result = 10
+WRITE AQUI11!
+filelen = 336
+write result = 28
+WRITE AQUI11!
+filelen = 352
+write result = 11
+WRITE AQUI11!
+filelen = 368
+write result = 9
+WRITE AQUI11!
+filelen = 384
+write result = 62
+WRITE AQUI11!
+filelen = 448
+write result = 78
+WRITE AQUI11!
+filelen = 512
+write result = 1
+WRITE AQUI11!
+filelen = 528
+write result = 6
+WRITE AQUI11!
+filelen = 528
+write result = 7
+WRITE AQUI11!
+filelen = 528
+write result = 6
+WRITE AQUI11!
+filelen = 544
+write result = 6
+WRITE AQUI11!
+filelen = 544
+write result = 6
+WRITE AQUI11!
+filelen = 544
+write result = 6
+WRITE AQUI11!
+filelen = 560
+write result = 28
+WRITE AQUI11!
+filelen = 592
+write result = 11
+WRITE AQUI11!
+filelen = 592
+write result = 9
+WRITE AQUI11!
+filelen = 608
+write result = 13
+WRITE AQUI11!
+filelen = 624
+write result = 10
+WRITE AQUI11!
+filelen = 624
+write result = 9
+WRITE AQUI11!
+filelen = 640
+write result = 12
+WRITE AQUI11!
+filelen = 656
+write result = 1
+WRITE AQUI11!
+filelen = 656
+write result = 75
+WRITE AQUI11!
+filelen = 720
+write result = 1
+WRITE AQUI11!
+filelen = 720
+write result = 28
+WRITE AQUI11!
+filelen = 752
+write result = 12
+WRITE AQUI11!
+filelen = 768
+write result = 66
+WRITE AQUI11!
+filelen = 832
+write result = 74
+WRITE AQUI11!
+filelen = 912
+write result = 1
+WRITE AQUI11!
+filelen = 912
+write result = 25
+WRITE AQUI11!
+filelen = 928
+write result = 9
+WRITE AQUI11!
+filelen = 944
+write result = 13
+WRITE AQUI11!
+filelen = 960
+write result = 12
+WRITE AQUI11!
+filelen = 960
+write result = 1
+WRITE AQUI11!
+filelen = 960
+write result = 98
+WRITE AQUI11!
+filelen = 1072
+write result = 1
+WRITE AQUI11!
+filelen = 1072
+write result = 28
+WRITE AQUI11!
+filelen = 1088
+write result = 9
+WRITE AQUI11!
+filelen = 1104
+write result = 80
+fprintf_chk_mylibc = %s: 
+WRITE AQUI11!
+filelen = 0
+write result = 16
+vfprintf_mylibc = %s: %s %s:
+WRITE AQUI11!
+filelen = 32
+write result = 116
+fprintf_chk_mylibc =  %s
+WRITE AQUI11!
+filelen = 144
+write result = 21
+WRITE AQUI11!
+filelen = 160
+write result = 1
+@@time_create = 65
+2020-12-08T17:23:06-0300.433355Z [(H)ERROR] tid(0x7fbc9c0572c0) | :OE_ENCLAVE_ABORTING [/source/host/calls.c:_call_enclave_function_impl:56]
+@@time_function = 1092
+@@time_terminate = 2
+@@Time total = 1205
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+WRITE AQUI11!
+filelen = 0
+write result = 80
+WRITE AQUI11!
+filelen = 96
+write result = 1
+WRITE AQUI11!
+filelen = 96
+write result = 6
+WRITE AQUI11!
+filelen = 96
+write result = 11
+WRITE AQUI11!
+filelen = 112
+write result = 28
+WRITE AQUI11!
+filelen = 128
+write result = 18
+WRITE AQUI11!
+filelen = 160
+write result = 9
+WRITE AQUI11!
+filelen = 160
+write result = 37
+WRITE AQUI11!
+filelen = 192
+write result = 10
+WRITE AQUI11!
+filelen = 208
+write result = 9
+WRITE AQUI11!
+filelen = 224
+write result = 78
+WRITE AQUI11!
+filelen = 288
+write result = 1
+WRITE AQUI11!
+filelen = 304
+write result = 6
+WRITE AQUI11!
+filelen = 304
+write result = 7
+WRITE AQUI11!
+filelen = 304
+write result = 6
+WRITE AQUI11!
+filelen = 320
+write result = 6
+WRITE AQUI11!
+filelen = 320
+write result = 10
+WRITE AQUI11!
+filelen = 336
+write result = 28
+WRITE AQUI11!
+filelen = 352
+write result = 11
+WRITE AQUI11!
+filelen = 368
+write result = 9
+WRITE AQUI11!
+filelen = 384
+write result = 62
+WRITE AQUI11!
+filelen = 448
+write result = 78
+WRITE AQUI11!
+filelen = 512
+write result = 1
+WRITE AQUI11!
+filelen = 528
+write result = 6
+WRITE AQUI11!
+filelen = 528
+write result = 7
+WRITE AQUI11!
+filelen = 528
+write result = 6
+WRITE AQUI11!
+filelen = 544
+write result = 6
+WRITE AQUI11!
+filelen = 544
+write result = 6
+WRITE AQUI11!
+filelen = 544
+write result = 6
+WRITE AQUI11!
+filelen = 560
+write result = 28
+WRITE AQUI11!
+filelen = 592
+write result = 11
+WRITE AQUI11!
+filelen = 592
+write result = 9
+WRITE AQUI11!
+filelen = 608
+write result = 13
+WRITE AQUI11!
+filelen = 624
+write result = 10
+WRITE AQUI11!
+filelen = 624
+write result = 9
+WRITE AQUI11!
+filelen = 640
+write result = 12
+WRITE AQUI11!
+filelen = 656
+write result = 1
+WRITE AQUI11!
+filelen = 656
+write result = 75
+WRITE AQUI11!
+filelen = 720
+write result = 1
+WRITE AQUI11!
+filelen = 720
+write result = 28
+WRITE AQUI11!
+filelen = 752
+write result = 12
+WRITE AQUI11!
+filelen = 768
+write result = 66
+WRITE AQUI11!
+filelen = 832
+write result = 74
+WRITE AQUI11!
+filelen = 912
+write result = 1
+WRITE AQUI11!
+filelen = 912
+write result = 25
+WRITE AQUI11!
+filelen = 928
+write result = 9
+WRITE AQUI11!
+filelen = 944
+write result = 13
+WRITE AQUI11!
+filelen = 960
+write result = 12
+WRITE AQUI11!
+filelen = 960
+write result = 1
+WRITE AQUI11!
+filelen = 960
+write result = 98
+WRITE AQUI11!
+filelen = 1072
+write result = 1
+WRITE AQUI11!
+filelen = 1072
+write result = 28
+WRITE AQUI11!
+filelen = 1088
+write result = 9
+WRITE AQUI11!
+filelen = 1104
+write result = 80
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostDHERm7"
+snprintf_mylibc = %d
+str = 4
+snprintf_mylibc = n%d
+str = n3
+snprintf_mylibc = n%d
+str = n4
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+WRITE AQUI11!
+filelen = 0
+write result = 103
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+WRITE AQUI11!
+filelen = 112
+write result = 28
+fprintf_chk_mylibc = 	%s=%s
+
+WRITE AQUI11!
+filelen = 144
+write result = 9
+fprintf_chk_mylibc = 	%s=%s
+
+WRITE AQUI11!
+filelen = 144
+write result = 36
+WRITE AQUI11!
+filelen = 0
+write result = 88559
+@@time_create = 63
+@@time_function = 1105
+@@time_terminate = 2
+@@Time total = 1236
+@@time_create = 64
+@@time_function = 1127
+@@time_terminate = 2
+@@Time total = 1241
+@@time_create = 65
+@@time_function = 1081
+@@time_terminate = 2
+@@Time total = 1217
+@@time_create = 65
+@@time_function = 1127
+@@time_terminate = 2
+@@Time total = 1314
+@@time_create = 64
+@@time_function = 1091
+@@time_terminate = 2
+@@Time total = 1236
+@@time_create = 96
+@@time_function = 1190
+@@time_terminate = 3
+@@Time total = 1331
+@@time_create = 65
+@@time_function = 1177
+@@time_terminate = 2
+@@Time total = 1319
+@@time_create = 65
+@@time_function = 1156
+@@time_terminate = 2
+@@Time total = 1286
+readcount = 101
+writecount = 59
+@@time_create = 86
+@@time_function = 1192
+@@time_terminate = 3
+@@Time total = 1282

@@ -1,0 +1,306 @@
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostUZAasT"
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = Shooting from zshot=%g yshot=%g xshot=%g
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = shot %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 9897
+@@time_function = 12509
+@@time_terminate = 122
+@@Time total = 22579
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostAzBjGp"
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = Shooting from zshot=%g yshot=%g xshot=%g
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = shot %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 9813
+@@time_function = 12219
+@@time_terminate = 119
+@@Time total = 22191
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostoNP9Pt"
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = Shooting from zshot=%g yshot=%g xshot=%g
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = shot %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 9887
+@@time_function = 11975
+@@time_terminate = 119
+@@Time total = 22014
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostZpupDR"
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = Shooting from zshot=%g yshot=%g xshot=%g
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = shot %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 9900
+@@time_function = 11990
+@@time_terminate = 119
+@@Time total = 22078
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostf7deRN"
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = Shooting from zshot=%g yshot=%g xshot=%g
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = shot %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 9862
+@@time_function = 11896
+@@time_terminate = 119
+@@Time total = 22009
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostj4bKk3"
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = Shooting from zshot=%g yshot=%g xshot=%g
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = shot %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 9769
+@@time_function = 12250
+@@time_terminate = 119
+@@Time total = 22182
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostoSDybk"
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = Shooting from zshot=%g yshot=%g xshot=%g
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = shot %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 9847
+@@time_function = 11897
+@@time_terminate = 119
+@@Time total = 21889
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhost0guYNH"
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = Shooting from zshot=%g yshot=%g xshot=%g
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = shot %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 9950
+@@time_function = 12494
+@@time_terminate = 118
+@@Time total = 22733
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhost8ow7tw"
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = Shooting from zshot=%g yshot=%g xshot=%g
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = shot %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 9852
+@@time_function = 11991
+@@time_terminate = 119
+@@Time total = 22178
+snprintf_mylibc = %s/.tmpdatapath
+str = /home/luislacalle/.tmpdatapath
+snprintf_mylibc = %s%sXXXXXX
+str = /var/tmp/helloworldhostXXXXXX
+snprintf_mylibc = %d
+str = 4
+sprintf_mylibc = %sXXXXXX
+str = helloworldhostXXXXXX
+sprintf_mylibc = "%s"
+str = "/var/tmp/helloworldhostuGnxVE"
+snprintf_mylibc = %d
+str = 4
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = Shooting from zshot=%g yshot=%g xshot=%g
+fprintf_chk_mylibc = %s: 
+vfprintf_mylibc = shot %d of %d;
+fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
+
+sprintf_mylibc = "%s"
+str = "native_float"
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+fprintf_chk_mylibc = 	%s=%s
+
+@@time_create = 9920
+@@time_function = 11958
+@@time_terminate = 116
+@@Time total = 22031
+2021-04-08T20:06:00-0300.225375Z [(H)ERROR] tid(0x7fa2d6c382c0) | enclave_create with ENCLAVE_TYPE_SGX1 type failed (err=0x1) (oe_result_t=OE_PLATFORM_ERROR) [/source/host/sgx/sgxload.c:oe_sgx_create_enclave:383]
+2021-04-08T20:06:00-0300.225398Z [(H)ERROR] tid(0x7fa2d6c382c0) | :OE_PLATFORM_ERROR [/source/host/sgx/create.c:oe_sgx_build_enclave:837]
+2021-04-08T20:06:00-0300.225890Z [(H)ERROR] tid(0x7fa2d6c382c0) | :OE_PLATFORM_ERROR [/source/host/sgx/create.c:oe_create_enclave:1031]
+2021-04-08T21:17:50-0300.769322Z [(H)ERROR] tid(0x7f7c197972c0) | enclave_create with ENCLAVE_TYPE_SGX1 type failed (err=0x1) (oe_result_t=OE_PLATFORM_ERROR) [/source/host/sgx/sgxload.c:oe_sgx_create_enclave:383]
+2021-04-08T21:17:50-0300.769353Z [(H)ERROR] tid(0x7f7c197972c0) | :OE_PLATFORM_ERROR [/source/host/sgx/create.c:oe_sgx_build_enclave:837]
+2021-04-08T21:17:50-0300.769637Z [(H)ERROR] tid(0x7f7c197972c0) | :OE_PLATFORM_ERROR [/source/host/sgx/create.c:oe_create_enclave:1031]
