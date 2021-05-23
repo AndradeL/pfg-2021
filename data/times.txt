@@ -1,0 +1,47 @@
+Neste arquivo está a razão entre o tempo de execução da app em ambiente de execução padrão e o tempo de execução na enclave.
+
+sfeikonal:
+2.0649592710202955
+2.7517327074416675
+
+sfwi: ****** retestar, rever dados de entrada
+0.029939043647199504
+0.03034200806254748
+
+sfhelicon:
+6.176470588235295
+482.94117647058823
+
+sfkirmod: ***** retestar, rever dados de entrada
+1.0963319748054836
+2.0218599481289368
+
+sfmf:
+1.3567839195979903
+19.447236180904525
+
+sfmig2: ** não executou
+
+sfpwd:
+3.3823529411764706
+41.87500000000001
+
+sfricker1:
+5.526315789473683
+121.49122807017542
+
+sfsigmoid:
+2.0
+120.76190476190476
+
+sfslice: ***** retestar e rever dados de entrada
+40.90909090909091
+399.4545454545454
+
+sfsnr2:
+3.783783783783784
+141.8918918918919
+
+sfunif2:
+4.942528735632185
+119.42528735632186
