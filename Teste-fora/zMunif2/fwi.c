@@ -132,7 +132,6 @@ unsigned long get_time() {
         struct timeval tv;
         gettimeofday(&tv, NULL);
         unsigned long ret = tv.tv_usec;
-        ret /= 1000;
-        ret += (tv.tv_sec * 1000);
+        ret += (unsigned long)tv.tv_sec * (unsigned long)1000000;
         return ret;
 }
