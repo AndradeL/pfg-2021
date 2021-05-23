@@ -34,9 +34,7 @@ int fwi(int argc, char **argv);
 
 int main(int argc, char **argv){
     unsigned long start = get_time();
-    for(int i=0;i<10;i++){
-        fwi(argc,argv);
-    }    
+    fwi(argc,argv);
     unsigned long end = get_time();
 
     printf("%lu\n", end - start);
@@ -46,7 +44,6 @@ int main(int argc, char **argv){
 
 int fwi (int argc, char* argv[]) 
 {
-    //unsigned long start = get_time();
     int n1,n2,n3; /*n1 is trace length, n2 is the number of traces, n3 is the number of 3th axis*/
     int nfw;    /*nfw is the filter-window length*/
     int m;
@@ -106,9 +103,6 @@ int fwi (int argc, char* argv[])
 	sf_floatwrite(trace,n1*n2,out);
     }
 
-    //unsigned long end = get_time();
-
-    //printf("@@Total time = %lu\n", end - start);
     return 0;
 }
 

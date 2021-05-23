@@ -31,9 +31,7 @@ int fwi(int argc, char **argv);
 
 int main(int argc, char **argv){
     unsigned long start = get_time();
-    for(int i=0;i<10;i++){
-        fwi(argc,argv);
-    }    
+    fwi(argc,argv);
     unsigned long end = get_time();
 
     printf("%lu\n", end - start);
