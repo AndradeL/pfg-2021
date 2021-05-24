@@ -8,14 +8,15 @@ CFLAGS= -O3 -I$(RSFROOT)/include
 all: build
 
 build: export CC=gcc
-build:
+build: fwi.x
+
+fwi.x: fwi.c
 	gcc -g -D NO_BLAS $(CFLAGS) fwi.c -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
 
 clean:
-	$(MAKE) -C enclave clean
-	$(MAKE) -C host clean
+	rm fwi.x
 
-run:
+run: fwi.x
 	./fwi.x pick=rsf/rms.rsf >> times.txt
 
 simulate:

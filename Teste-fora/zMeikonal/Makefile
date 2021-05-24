@@ -8,14 +8,15 @@ CFLAGS= -O3 -I$(RSFROOT)/include
 all: build
 
 build: export CC=gcc
-build:
+build: fwi.x
+
+fwi.x: fwi.c fastmarch.o
 	gcc -g -D NO_BLAS $(CFLAGS) fwi.c fastmarch.o -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
 
 clean:
-	$(MAKE) -C enclave clean
-	$(MAKE) -C host clean
+	rm fwi.x
 
-run:
+run: fwi.x
 	./fwi.x vel=0 zshot=1500 >> times.txt
 
 simulate:
