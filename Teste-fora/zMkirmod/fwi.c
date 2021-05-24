@@ -481,7 +481,7 @@ int main(int argc, char* argv[])
 
 	unsigned long end = get_time();
 
-	printf("@@Time total = %lu\n", end - start);
+	printf("%lu\n", end - start);
     return 0;
 }
 

@@ -709,7 +709,7 @@ int main(int argc, char *argv[])
 
     unsigned long fim = get_time();
 
-    printf("@@time total = %lu\n", fim - inic);
+    printf("%lu\n", fim - inic);
 
     exit(0);
 }

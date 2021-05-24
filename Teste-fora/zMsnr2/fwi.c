@@ -32,7 +32,8 @@ int main(int argc, char **argv){
     fwi(argc,argv);
     unsigned long end = get_time();
 
-    printf("%lu\n", end - start);
+    FILE *file = fopen("times.txt", "a");
+    fprintf(file, "%lu\n", end - start);
     
     return 0;
 }

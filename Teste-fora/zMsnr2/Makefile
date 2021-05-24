@@ -16,7 +16,7 @@ clean:
 	$(MAKE) -C host clean
 
 run:
-	./fwi.x noise=rsf/diff0.rsf >> times.txt
+	./fwi.x noise=rsf/diff0.rsf
 
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate
