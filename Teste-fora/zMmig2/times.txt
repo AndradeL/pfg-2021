@@ -1,11 +1,10 @@
-@@Time total = 7086
-@@Time total = 7056
-@@Time total = 7054
-@@Time total = 7050
-@@Time total = 7054
-@@Time total = 7059
-@@Time total = 7054
-@@Time total = 7056
-@@Time total = 7054
-@@Time total = 7053
-@@Time total = 7132
+6993329
+6975252
+6981494
+7018193
+6975657
+6980699
+6983774
+6991066
+6986673
+6984850

@@ -1,10 +1,10 @@
-@@time total = 7405
-@@time total = 7282
-@@time total = 7158
-@@time total = 7205
-@@time total = 7122
-@@time total = 7285
-@@time total = 7210
-@@time total = 7344
-@@time total = 7208
-@@time total = 7211
+7350208
+7334031
+7223536
+7312942
+7311130
+7314363
+7257348
+7251955
+7331327
+7266247
