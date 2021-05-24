@@ -486,10 +486,9 @@ int main(int argc, char* argv[])
 }
 
 unsigned long get_time() {
-        struct timeval tv;
-        gettimeofday(&tv, NULL);
-        unsigned long ret = tv.tv_usec;
-        ret /= 1000;
-        ret += (tv.tv_sec * 1000);
-        return ret;
+	struct timeval tv;
+	gettimeofday(&tv, NULL);
+	unsigned long ret = tv.tv_usec;
+	ret += (tv.tv_sec * 1000000);
+	return ret;
 }
