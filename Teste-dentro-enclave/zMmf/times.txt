@@ -1,300 +1,40 @@
-snprintf_mylibc = %s/.tmpdatapath
-str = /home/lucas/.tmpdatapath
-snprintf_mylibc = %s%sXXXXXX
-str = /var/tmp/helloworldhostXXXXXX
-snprintf_mylibc = %d
-str = 4
-sprintf_mylibc = %sXXXXXX
-str = helloworldhostXXXXXX
-sprintf_mylibc = "%s"
-str = "/var/tmp/helloworldhostx7OSLi"
-snprintf_mylibc = %d
-str = 4
-snprintf_mylibc = n%d
-str = n3
-snprintf_mylibc = n%d
-str = n4
-fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
-
-sprintf_mylibc = "%s"
-str = "native_float"
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-@@time_create = 90
-@@time_function = 11
-@@time_terminate = 4
-@@Time total = 204
-snprintf_mylibc = %s/.tmpdatapath
-str = /home/lucas/.tmpdatapath
-snprintf_mylibc = %s%sXXXXXX
-str = /var/tmp/helloworldhostXXXXXX
-snprintf_mylibc = %d
-str = 4
-sprintf_mylibc = %sXXXXXX
-str = helloworldhostXXXXXX
-sprintf_mylibc = "%s"
-str = "/var/tmp/helloworldhosthlk8AI"
-snprintf_mylibc = %d
-str = 4
-snprintf_mylibc = n%d
-str = n3
-snprintf_mylibc = n%d
-str = n4
-fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
-
-sprintf_mylibc = "%s"
-str = "native_float"
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-@@time_create = 93
-@@time_function = 10
-@@time_terminate = 5
-@@Time total = 131
-snprintf_mylibc = %s/.tmpdatapath
-str = /home/lucas/.tmpdatapath
-snprintf_mylibc = %s%sXXXXXX
-str = /var/tmp/helloworldhostXXXXXX
-snprintf_mylibc = %d
-str = 4
-sprintf_mylibc = %sXXXXXX
-str = helloworldhostXXXXXX
-sprintf_mylibc = "%s"
-str = "/var/tmp/helloworldhostdX08KM"
-snprintf_mylibc = %d
-str = 4
-snprintf_mylibc = n%d
-str = n3
-snprintf_mylibc = n%d
-str = n4
-fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
-
-sprintf_mylibc = "%s"
-str = "native_float"
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-@@time_create = 90
-@@time_function = 11
-@@time_terminate = 4
-@@Time total = 146
-snprintf_mylibc = %s/.tmpdatapath
-str = /home/lucas/.tmpdatapath
-snprintf_mylibc = %s%sXXXXXX
-str = /var/tmp/helloworldhostXXXXXX
-snprintf_mylibc = %d
-str = 4
-sprintf_mylibc = %sXXXXXX
-str = helloworldhostXXXXXX
-sprintf_mylibc = "%s"
-str = "/var/tmp/helloworldhostZGKEmi"
-snprintf_mylibc = %d
-str = 4
-snprintf_mylibc = n%d
-str = n3
-snprintf_mylibc = n%d
-str = n4
-fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
-
-sprintf_mylibc = "%s"
-str = "native_float"
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-@@time_create = 94
-@@time_function = 11
-@@time_terminate = 4
-@@Time total = 165
-snprintf_mylibc = %s/.tmpdatapath
-str = /home/lucas/.tmpdatapath
-snprintf_mylibc = %s%sXXXXXX
-str = /var/tmp/helloworldhostXXXXXX
-snprintf_mylibc = %d
-str = 4
-sprintf_mylibc = %sXXXXXX
-str = helloworldhostXXXXXX
-sprintf_mylibc = "%s"
-str = "/var/tmp/helloworldhostaDP82U"
-snprintf_mylibc = %d
-str = 4
-snprintf_mylibc = n%d
-str = n3
-snprintf_mylibc = n%d
-str = n4
-fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
-
-sprintf_mylibc = "%s"
-str = "native_float"
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-@@time_create = 91
-@@time_function = 11
-@@time_terminate = 4
-@@Time total = 121
-snprintf_mylibc = %s/.tmpdatapath
-str = /home/lucas/.tmpdatapath
-snprintf_mylibc = %s%sXXXXXX
-str = /var/tmp/helloworldhostXXXXXX
-snprintf_mylibc = %d
-str = 4
-sprintf_mylibc = %sXXXXXX
-str = helloworldhostXXXXXX
-sprintf_mylibc = "%s"
-str = "/var/tmp/helloworldhostP8TyBa"
-snprintf_mylibc = %d
-str = 4
-snprintf_mylibc = n%d
-str = n3
-snprintf_mylibc = n%d
-str = n4
-fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
-
-sprintf_mylibc = "%s"
-str = "native_float"
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-@@time_create = 91
-@@time_function = 11
-@@time_terminate = 5
-@@Time total = 164
-snprintf_mylibc = %s/.tmpdatapath
-str = /home/lucas/.tmpdatapath
-snprintf_mylibc = %s%sXXXXXX
-str = /var/tmp/helloworldhostXXXXXX
-snprintf_mylibc = %d
-str = 4
-sprintf_mylibc = %sXXXXXX
-str = helloworldhostXXXXXX
-sprintf_mylibc = "%s"
-str = "/var/tmp/helloworldhost5mSjv1"
-snprintf_mylibc = %d
-str = 4
-snprintf_mylibc = n%d
-str = n3
-snprintf_mylibc = n%d
-str = n4
-fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
-
-sprintf_mylibc = "%s"
-str = "native_float"
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-@@time_create = 91
-@@time_function = 11
-@@time_terminate = 4
-@@Time total = 147
-snprintf_mylibc = %s/.tmpdatapath
-str = /home/lucas/.tmpdatapath
-snprintf_mylibc = %s%sXXXXXX
-str = /var/tmp/helloworldhostXXXXXX
-snprintf_mylibc = %d
-str = 4
-sprintf_mylibc = %sXXXXXX
-str = helloworldhostXXXXXX
-sprintf_mylibc = "%s"
-str = "/var/tmp/helloworldhostr6cysC"
-snprintf_mylibc = %d
-str = 4
-snprintf_mylibc = n%d
-str = n3
-snprintf_mylibc = n%d
-str = n4
-fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
-
-sprintf_mylibc = "%s"
-str = "native_float"
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-@@time_create = 91
-@@time_function = 10
-@@time_terminate = 5
-@@Time total = 183
-snprintf_mylibc = %s/.tmpdatapath
-str = /home/lucas/.tmpdatapath
-snprintf_mylibc = %s%sXXXXXX
-str = /var/tmp/helloworldhostXXXXXX
-snprintf_mylibc = %d
-str = 4
-sprintf_mylibc = %sXXXXXX
-str = helloworldhostXXXXXX
-sprintf_mylibc = "%s"
-str = "/var/tmp/helloworldhost9b4W1T"
-snprintf_mylibc = %d
-str = 4
-snprintf_mylibc = n%d
-str = n3
-snprintf_mylibc = n%d
-str = n4
-fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
-
-sprintf_mylibc = "%s"
-str = "native_float"
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-@@time_create = 89
-@@time_function = 11
-@@time_terminate = 4
-@@Time total = 128
-snprintf_mylibc = %s/.tmpdatapath
-str = /home/lucas/.tmpdatapath
-snprintf_mylibc = %s%sXXXXXX
-str = /var/tmp/helloworldhostXXXXXX
-snprintf_mylibc = %d
-str = 4
-sprintf_mylibc = %sXXXXXX
-str = helloworldhostXXXXXX
-sprintf_mylibc = "%s"
-str = "/var/tmp/helloworldhosthXfYVC"
-snprintf_mylibc = %d
-str = 4
-snprintf_mylibc = n%d
-str = n3
-snprintf_mylibc = n%d
-str = n4
-fprintf_chk_mylibc = %s	%s	%s:	%s@%s	%s
-
-sprintf_mylibc = "%s"
-str = "native_float"
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-fprintf_chk_mylibc = 	%s=%s
-
-@@time_create = 91
-@@time_function = 11
-@@time_terminate = 4
-@@Time total = 159
+@@time_create = 89889
+@@time_function = 12799
+@@time_terminate = 4142
+@@Time total = 179017
+@@time_create = 90455
+@@time_function = 11328
+@@time_terminate = 4309
+@@Time total = 197163
+@@time_create = 92249
+@@time_function = 11285
+@@time_terminate = 4446
+@@Time total = 182474
+@@time_create = 91938
+@@time_function = 11289
+@@time_terminate = 4571
+@@Time total = 142542
+@@time_create = 91171
+@@time_function = 11262
+@@time_terminate = 4527
+@@Time total = 156332
+@@time_create = 89960
+@@time_function = 11317
+@@time_terminate = 4350
+@@Time total = 163548
+@@time_create = 93876
+@@time_function = 11251
+@@time_terminate = 4401
+@@Time total = 142767
+@@time_create = 90762
+@@time_function = 11145
+@@time_terminate = 5042
+@@Time total = 171862
+@@time_create = 89972
+@@time_function = 11124
+@@time_terminate = 4600
+@@Time total = 173783
+@@time_create = 92850
+@@time_function = 11801
+@@time_terminate = 4360
+@@Time total = 185261
