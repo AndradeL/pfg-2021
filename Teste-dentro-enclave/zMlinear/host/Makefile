@@ -12,8 +12,8 @@ build:
 	oeedger8r ../helloworld.edl --untrusted \
 		--search-path $(INCDIR) \
 		--search-path $(INCDIR)/openenclave/edl/sgx
-	$(CC) -g -c $(CFLAGS) keys.c evp.c host.c ocalls.c
-	$(CC) -g -c $(CFLAGS) helloworld_u.c
+	$(CC) -c $(CFLAGS) keys.c evp.c host.c ocalls.c
+	$(CC) -c $(CFLAGS) helloworld_u.c
 	$(CC) -o helloworldhost helloworld_u.o host.o ocalls.o keys.o evp.o $(LDFLAGS)
 
 clean:

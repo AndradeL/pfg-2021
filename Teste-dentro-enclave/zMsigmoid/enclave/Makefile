@@ -28,13 +28,13 @@ build:
 	oeedger8r ../helloworld.edl --trusted \
 		--search-path $(INCDIR) \
 		--search-path $(INCDIR)/openenclave/edl/sgx
-	$(CC) -g -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 fwi.c -o fwi.o
-	$(CC) -g -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 random.c -o random.o
+	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 fwi.c -o fwi.o
+	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 random.c -o random.o
 	objcopy --redefine-sym main=fwi fwi.o fwi2.o
-	$(CC) -g -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 mylibc.c -o mylibc.o
-	$(CC) -g -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 enc.c -o enc.o
-	$(CC) -g -c $(CFLAGS) -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
-	$(CC) -g -z muldefs -o helloworldenc helloworld_t.o fwi2.o random.o -lrsf mylibc.o enc.o $(LDFLAGS)
+	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 mylibc.c -o mylibc.o
+	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 enc.c -o enc.o
+	$(CC) -c $(CFLAGS) -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
+	$(CC) -z muldefs -o helloworldenc helloworld_t.o fwi2.o random.o -lrsf mylibc.o enc.o $(LDFLAGS)
 
 sign:
 	oesign sign -e helloworldenc -c helloworld.conf -k private.pem

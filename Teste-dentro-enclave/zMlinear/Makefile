@@ -15,7 +15,7 @@ clean:
 	$(MAKE) -C host clean
 
 run:
-	host/helloworldhost ./enclave/helloworldenc.signed n1=64 d1=0.004 o1=0 >> times.txt
+	host/helloworldhost ./enclave/helloworldenc.signed n1=64 d1=0.004 o1=0
 
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate

@@ -15,7 +15,7 @@ clean:
 	$(MAKE) -C host clean
 
 run:
-	host/helloworldhost ./enclave/helloworldenc.signed freq=25 >> times.txt
+	host/helloworldhost ./enclave/helloworldenc.signed freq=25
 	
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate

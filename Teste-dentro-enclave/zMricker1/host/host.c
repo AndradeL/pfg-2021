@@ -39,6 +39,7 @@ bool check_simulate_opt(int* argc, char* argv[])
 
 int main(int argc, char* argv[])
 {
+    FILE* time_file = fopen("times.txt", "a");
     long unsigned start2 = get_time();
     oe_result_t result;
     int ret = 1;
@@ -65,7 +66,7 @@ int main(int argc, char* argv[])
 
     long unsigned end2 = get_time();
 
-    printf("@@time_create = %lu\n", end2 - start2);
+   fprintf(time_file, "@@time_create = %lu\n", end2 - start2);
 
     open_std();
 
@@ -105,7 +106,7 @@ int main(int argc, char* argv[])
 
     long unsigned end = get_time();
 
-    printf("@@time_function = %lu\n", end - start);
+   fprintf(time_file, "@@time_function = %lu\n", end - start);
 
     if (result != OE_OK)
     {
@@ -127,8 +128,8 @@ exit:
         long unsigned start1 = get_time();
         oe_terminate_enclave(enclave);
         long unsigned end1 = get_time();
-        printf("@@time_terminate = %lu\n", end1 - start1);
-        printf("@@Time total = %lu\n", end1 - start2);
+       fprintf(time_file, "@@time_terminate = %lu\n", end1 - start1);
+       fprintf(time_file, "@@Time total = %lu\n", end1 - start2);
     }
     
     return ret;
