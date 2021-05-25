@@ -24,7 +24,7 @@ enclave {
         void fprintf_ocall(
             uint64_t stream,
             [in, string] char * buffer,
-            [out] int * result
+            [out] int * __result
         );
         void fwrite_ocall(
             [in, size=total_bytes] const void * ptr,
@@ -32,21 +32,21 @@ enclave {
             size_t count,
             size_t total_bytes,
             uint64_t stream,
-            [out] size_t * result
+            [out] size_t * __result
         );
         void fputs_ocall(
             [in, string] const char * str,
             uint64_t file,
-            [out] int * result
+            [out] int * __result
         );
         void fputc_ocall(
             int c,
             uint64_t file,
-            [out] int * result
+            [out] int * __result
         );
         void fflush_ocall(
             uint64_t file,
-            [out] int * result
+            [out] int * __result
         );
         void fopen_ocall(
             [in, string] const char * path,
@@ -55,7 +55,7 @@ enclave {
         );
         void fclose_ocall(
             uint64_t file,
-            [out] int * result
+            [out] int * __result
         );
         void fgets_ocall(
             [out, count=size] char * string,
@@ -69,17 +69,17 @@ enclave {
             size_t count,
             uint64_t stream,
             size_t totbyte,
-            [out] size_t * result
+            [out] size_t * __result
         );
         void fgetc_ocall(
             uint64_t stream,
-            [out] int * result
+            [out] int * __result
         );
         void fseeko_ocall(
             uint64_t stream,
             int64_t offset,
             int whence,
-            [out] int * result
+            [out] int * __result
         );
 
         void freopen_ocall(
@@ -90,7 +90,7 @@ enclave {
 
         void ftello_ocall(
             uint64_t stream,
-            [out] int64_t * result
+            [out] int64_t * __result
         );
 
         void fdopen_ocall(
@@ -102,17 +102,17 @@ enclave {
         void ungetc_ocall(
             int c,
             uint64_t stream,
-            [out] int * result
+            [out] int * __result
         );
 
         void unlink_ocall(
             [in, string] const char * pathname,
-            [out] int * result
+            [out] int * __result
         );
 
         void remove_ocall(
             [in, string] const char * path,
-            [out] int * result
+            [out] int * __result
         );
 
         //void atexit_ocall
@@ -121,37 +121,37 @@ enclave {
         void uname_ocall(
             [out, size=len] char * buffer,
             size_t len,
-            [out] int * result
+            [out] int * __result
         );
 
         void fileno_ocall(
             uint64_t stream,
-            [out] int * result
+            [out] int * __result
         );
 
         void opendir_ocall(
             [in, string] const char * name,
-            [out] uint64_t *result
+            [out] uint64_t *__result
         );
 
         void readdir_ocall(
             uint64_t dirp,
-            [out] uint64_t * result
+            [out] uint64_t * __result
         );
 
         void closedir_ocall(
             uint64_t dirp,
-            [out] int * result
+            [out] int * __result
         );
 
         void mkstemp_ocall(
             [in, out, string] char * template,
-            [out] int * result
+            [out] int * __result
         );
 
         void close_ocall(
             int fd,
-            [out] int * result
+            [out] int * __result
         );
 
         void rewind_ocall(
@@ -160,7 +160,7 @@ enclave {
 
         void ctime_ocall(
             [in] const time_t * timer,
-            [out, size=100] char * result 
+            [out, size=100] char * __result 
         );
 
         void getcwd_ocall(
@@ -168,27 +168,27 @@ enclave {
             size_t size
         );
         void geteuid_ocall(
-            [out] unsigned int * result
+            [out] unsigned int * __result
         );
         void isatty_ocall(
             int fd,
-            [out] int * result
+            [out] int * __result
         );
         void memcpy_chk_ocall(
             [out, size = destlen] void * dest,
             [in, size = len] const void * src,
             size_t len,
             size_t destlen,
-            [out] int * result
+            [out] int * __result
         );
         void getlogin_r_ocall(
             [out, count = bufsize] char * buf,
             size_t bufsize,
-            [out] int * result
+            [out] int * __result
         );
 
         void ctype_b_loc_ocall(
-            [out] unsigned short ***result
+            [out] unsigned short ***__result
         );
         void strncpy_chk_ocall(
             [out, count=s1len] char * s1,
@@ -201,28 +201,28 @@ enclave {
             [in, string] const char * arg1,
             [in, string] const char * arg2,
             [in, string] const char * arg3,
-            [out] int * result
+            [out] int * __result
         );
         void execlp_ocall(
             [in, string] const char * file,
             [in, string] const char * arg1,
             [in, string] const char * arg2,
             [in, string] const char * arg3,
-            [out] int * result
+            [out] int * __result
         );
         void fstat_ocall(
             int fd,
             uint64_t buf,
-            [out] int * result
+            [out] int * __result
         );
         void getenv_ocall(
             [in, string] const char * buf,
-            [out, count=500] char * result,
+            [out, count=500] char * __result,
             [out] int * null_chk
         );
         void expf_ocall(
             float tmp,
-            [out] float * result
+            [out] float * __result
         );
     };
 };
