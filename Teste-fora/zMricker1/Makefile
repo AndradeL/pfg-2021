@@ -3,7 +3,7 @@
 
 .PHONY: all build clean run simulate gdb
 
-CFLAGS= -O3 -I$(RSFROOT)/include
+CFLAGS= -O3 -D NO_BLAS -I$(RSFROOT)/include
 
 all: build
 
@@ -11,10 +11,13 @@ build: export CC=gcc
 build: fwi.x
 
 fwi.x: fwi.c ricker.o kirmod.o kirmod2.o
-	gcc -g -D NO_BLAS $(CFLAGS) fwi.c ricker.o kirmod.o kirmod2.o -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
+	gcc $(CFLAGS) fwi.c ricker.o kirmod.o kirmod2.o -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
+
+%.o: %.c %.h
+	gcc -c $(CFLAGS) $< -o $@
 
 clean:
-	rm fwi.x
+	rm *.o fwi.x
 
 run: fwi.x
 	./fwi.x freq=25 >> times.txt

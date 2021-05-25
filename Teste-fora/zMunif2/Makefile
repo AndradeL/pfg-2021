@@ -11,10 +11,10 @@ build: export CC=gcc
 build: fwi.x
 
 fwi.x: fwi.c
-	gcc -g -D NO_BLAS $(CFLAGS) fwi.c -o fwi.x -lrsf -lblas -lm -L$(RSFROOT)/lib
+	gcc -D NO_BLAS $(CFLAGS) fwi.c -o fwi.x -lrsf -lblas -lm -L$(RSFROOT)/lib
 
 clean:
-	rm fwi.x
+	rm *.o fwi.x
 
 run: fwi.x
 	./fwi.x d1=0.0101 n1=199 v00=1.508,1.581,1.69,1.826,2.0 >> times.txt

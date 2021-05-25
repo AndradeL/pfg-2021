@@ -11,10 +11,10 @@ build: export CC=gcc
 build: fwi.x
 
 fwi.x: fwi.c
-	gcc -g -D NO_BLAS $(CFLAGS) fwi.c -o fwi.x -lrsf -lblas -lm -L$(RSFROOT)/lib
+	gcc -D NO_BLAS $(CFLAGS) fwi.c -o fwi.x -lrsf -lblas -lm -L$(RSFROOT)/lib
 
 clean:
-	rm fwi.x
+	rm *.o fwi.x
 
 run: fwi.x
 	./fwi.x noise=rsf/diff0.rsf
