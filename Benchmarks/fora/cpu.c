@@ -2,26 +2,23 @@
 #include <stdio.h>
 #include <sys/time.h>
 
-#define NUM 8
+#define NUM 100000
 
-uint64_t fibonacci(uint64_t n) {
-  uint64_t a, b, c;
-  a = 0;
-  b = 1;
-  for (size_t i = 0; i < n; i++)
-  {
-    c = a + b;
-    a = b;
-    b = c;
-  }
-  return a;
+// modified from https://www.cplusplus.com/reference/ctime/clock/
+int frequency_of_primes(int n) {
+  int i, j;
+  int freq = n - 1;
+  for (i = 2; i <= n; ++i)
+    for (j = i / 2; j > 1; --j)
+      if (i % j == 0) {
+        --freq;
+        break;
+      }
+  return freq;
 }
 
 void init() {}
-void kernel() {
-  uint64_t f = fibonacci(NUM);
-  printf("%lu\n", f);
-}
+int kernel() { return frequency_of_primes(NUM); }
 
 unsigned long get_time() {
   struct timeval tv;
@@ -40,5 +37,6 @@ int main(int argc, char *argv[]) {
   unsigned long end_time = get_time();
 
   FILE *oFile = fopen("cpu_times.txt", "a");
+  
   fprintf(oFile, "%lu\n", end_time - start_time);
 }
