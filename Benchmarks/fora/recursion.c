@@ -12,7 +12,7 @@ uint64_t fibonacci(uint64_t n) {
 }
 
 void init() {}
-uint64_t kernel() { fibonacci(NUM); }
+uint64_t kernel() { return fibonacci(NUM); }
 
 unsigned long get_time() {
   struct timeval tv;
