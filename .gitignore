@@ -54,3 +54,4 @@ dkms.conf
 
 # Others
 .ipynb_checkpoints
+*.pem

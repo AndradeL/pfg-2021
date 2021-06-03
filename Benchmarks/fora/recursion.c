@@ -12,10 +12,7 @@ uint64_t fibonacci(uint64_t n) {
 }
 
 void init() {}
-void kernel() {
-  uint64_t f = fibonacci(NUM);
-  printf("%lu\n", f);
-}
+uint64_t kernel() { fibonacci(NUM); }
 
 unsigned long get_time() {
   struct timeval tv;
@@ -29,10 +26,11 @@ int main(int argc, char *argv[]) {
   init();
   unsigned long start_time = get_time();
 
-  kernel();
+  uint64_t num = kernel();
 
   unsigned long end_time = get_time();
 
+  fprintf(stderr, "%lu\n", num);
   FILE *oFile = fopen("rec_times.txt", "a");
   fprintf(oFile, "%lu\n", end_time - start_time);
 }

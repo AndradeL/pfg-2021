@@ -8,7 +8,6 @@
 #include <sys/time.h>
 
 #define BUF_SIZE (8 * 1024 * 1024)
-#define SEED (120389747)
 
 static uint8_t buf[BUF_SIZE];
 static FILE *data_file;
@@ -19,9 +18,9 @@ void init() {
     exit(1);
 }
 
-void read() { printf("%d\n", fread(buf, sizeof(uint8_t), BUF_SIZE, data_file)); }
+void read() { fread(buf, sizeof(uint8_t), BUF_SIZE, data_file); }
 
-void write() { printf("%d\n", fwrite(buf, sizeof(uint8_t), BUF_SIZE, data_file)); }
+void write() { fwrite(buf, sizeof(uint8_t), BUF_SIZE, data_file); }
 
 unsigned long get_time() {
   struct timeval tv;
