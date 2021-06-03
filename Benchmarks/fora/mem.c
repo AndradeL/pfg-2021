@@ -14,20 +14,20 @@ static int vec2[NUM_EL];
 
 void init() {
   srand(SEED);
-  for (uint i = 0; i < NUM_EL; i++) {
+  for (size_t i = 0; i < NUM_EL; i++) {
     vec1[i] = rand();
     vec2[i] = 0;
   }
 }
 
 void kernel() {
-  for (uint i = 0; i < NUM_EL; i++)
+  for (size_t i = 0; i < NUM_EL; i++)
     vec2[i] = vec1[i];
 }
 
 // declared in order to avoid the kernel() code being removed by compiler optimizations
 void use_variables() {
-    for (uint i = 0; i < NUM_EL; i++)
+    for (size_t i = 0; i < NUM_EL; i++)
     {
         printf("%d\n", vec2[i]);
     }
@@ -53,4 +53,5 @@ int main(int argc, char *argv[]) {
 
   FILE *oFile = fopen("mem_times.txt", "a");
   fprintf(oFile, "%lu\n", end_time - start_time);
+  fclose(oFile);
 }

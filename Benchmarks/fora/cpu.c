@@ -32,11 +32,12 @@ int main(int argc, char *argv[]) {
   init();
   unsigned long start_time = get_time();
 
-  kernel();
+  int n = kernel();
 
   unsigned long end_time = get_time();
 
+  printf("%d\n", n);
   FILE *oFile = fopen("cpu_times.txt", "a");
-  
   fprintf(oFile, "%lu\n", end_time - start_time);
+  fclose(oFile);
 }

@@ -33,4 +33,5 @@ int main(int argc, char *argv[]) {
   fprintf(stderr, "%lu\n", num);
   FILE *oFile = fopen("rec_times.txt", "a");
   fprintf(oFile, "%lu\n", end_time - start_time);
+  fclose(oFile);
 }
