@@ -5,7 +5,7 @@ enclave {
     from "openenclave/edl/syscall.edl" import *;
     from "platform.edl" import *;
     trusted {
-        public void kernel();
+        public uint64_t kernel();
         public void std_ecall(
             [out] uint64_t * stdin_id,
             [out] uint64_t * stdout_id,

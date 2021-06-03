@@ -66,7 +66,7 @@ int main(int argc, char* argv[])
 
     long unsigned end2 = get_time();
 
-   fprintf(time_file, "@@time_create = %lu\n", end2 - start2);
+    fprintf(time_file, "@@time_create = %lu\n", end2 - start2);
 
     open_std();
 
@@ -99,14 +99,16 @@ int main(int argc, char* argv[])
     }
 
     //call fwi
-    int resultado;
+    uint64_t resultado;
     long unsigned start = get_time();
 
-    result = fwi(enclave, &resultado, argc, argv);
+    result = kernel(enclave, &resultado);
 
     long unsigned end = get_time();
 
-   fprintf(time_file, "@@time_function = %lu\n", end - start);
+    printf("%lu\n", resultado);
+
+    fprintf(time_file, "@@time_function = %lu\n", end - start);
 
     if (result != OE_OK)
     {

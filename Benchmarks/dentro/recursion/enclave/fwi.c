@@ -12,4 +12,4 @@ uint64_t fibonacci(uint64_t n) {
 }
 
 void init() {}
-void kernel() { fibonacci(NUM); }
+uint64_t kernel() { return fibonacci(NUM); }
