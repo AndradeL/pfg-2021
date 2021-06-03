@@ -99,10 +99,9 @@ int main(int argc, char* argv[])
     }
 
     //call fwi
-    int resultado;
     long unsigned start = get_time();
 
-    result = fwi(enclave, &resultado, argc, argv);
+    result = kernel(enclave);
 
     long unsigned end = get_time();
 
