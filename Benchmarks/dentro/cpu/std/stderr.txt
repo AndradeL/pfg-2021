@@ -1,6 +1,0 @@
-helloworldhost: iter=0
-helloworldhost: obj=19982798.000000  beta=0.000000  epsil=0.000140  alpha=0.001919
-helloworldhost: iter=1
-helloworldhost: obj=14805484.000000  beta=0.000000  epsil=0.000659  alpha=0.005478
-helloworldhost: iter=2
-helloworldhost: obj=11128614.000000  beta=0.902271  epsil=0.000356  alpha=0.002316

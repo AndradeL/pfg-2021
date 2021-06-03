@@ -102,11 +102,12 @@ int main(int argc, char* argv[])
     int resultado;
     long unsigned start = get_time();
 
-    result = fwi(enclave, &resultado, argc, argv);
+    result = kernel(enclave, &resultado);
 
     long unsigned end = get_time();
 
-   fprintf(time_file, "@@time_function = %lu\n", end - start);
+    printf("%d\n", resultado);
+    fprintf(time_file, "@@time_function = %lu\n", end - start);
 
     if (result != OE_OK)
     {
