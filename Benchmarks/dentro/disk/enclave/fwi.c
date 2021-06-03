@@ -5,14 +5,26 @@
 #define BUF_SIZE (8 * 1024 * 1024)
 
 static uint8_t buf[BUF_SIZE];
-static FILE *data_file;
+static FILE *read_file;
+static FILE *write_file;
+static size_t size;
 
 void init() {
-  data_file = fopen("data.txt", "rb+");
-  if (!data_file)
+  size = 0;
+  read_file = fopen("data.txt", "rb");
+  write_file = fopen("copy.txt", "wb");
+  if (!read_file || !write_file)
     exit(1);
 }
 
-void read() { fread(buf, sizeof(uint8_t), BUF_SIZE, data_file); }
+void t_read() { size = fread(buf, sizeof(uint8_t), BUF_SIZE, read_file); }
 
-void write() { fwrite(buf, sizeof(uint8_t), BUF_SIZE, data_file); }
+void t_write() { fwrite(buf, sizeof(uint8_t), size, write_file); }
+
+void t_close() {
+  size = 0;
+  if (read_file)
+    fclose(read_file);
+  if (write_file)
+    fclose(write_file);
+}

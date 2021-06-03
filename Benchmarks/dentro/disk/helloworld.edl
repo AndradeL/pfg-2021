@@ -6,8 +6,9 @@ enclave {
     from "platform.edl" import *;
     trusted {
         public void init();
-        public void read();
-        public void write();
+        public void t_read();
+        public void t_write();
+        public void t_close();
         public void std_ecall(
             [out] uint64_t * stdin_id,
             [out] uint64_t * stdout_id,

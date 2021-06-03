@@ -98,23 +98,27 @@ int main(int argc, char* argv[])
             oe_result_str(result));
         goto exit;
     }
+    
+    init(enclave);
 
     //call fwi
     long unsigned start = get_time();
 
-    result = read(enclave);
+    result = t_read(enclave);
 
     long unsigned end = get_time();
     
     fprintf(rtime_file, "%lu\n", end - start);
 
-    long unsigned start = get_time();
+    start = get_time();
 
-    result = write(enclave);
+    result = t_write(enclave);
 
-    long unsigned end = get_time();
+    end = get_time();
 
     fprintf(wtime_file, "%lu\n", end - start);
+
+    t_close(enclave);
 
     if (result != OE_OK)
     {
