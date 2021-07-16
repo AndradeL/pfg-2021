@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for ((num=32;num<=40;num++))
+for ((num=32;num<=42;num++))
 do
 	gcc -O3 recursion.c -o recursion.x -DNUM=$num
 	echo "NUM=$num :" >> rec_times.txt 
