@@ -2,7 +2,7 @@
 
 for ((num=2;num<=32;num*=2))
 do
-	make build -DNUM=$num
+	make build NUM=$num
 	echo "==== $num MBs copy:" >> times.txt 
 	for ((i=0;i<20;i++))
 	do

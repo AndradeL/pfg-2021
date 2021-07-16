@@ -1,80 +1,10 @@
-@@time_create = 9530070
-@@time_function = 2164753
-@@time_terminate = 91235
-@@Time total = 11801157
-@@time_create = 9543707
-@@time_function = 2147271
-@@time_terminate = 90147
-@@Time total = 11959508
-@@time_create = 9513644
-@@time_function = 2143604
-@@time_terminate = 88783
-@@Time total = 11758510
-@@time_create = 9454172
-@@time_function = 2127381
-@@time_terminate = 91985
-@@Time total = 11691442
-@@time_create = 9521659
-@@time_function = 2129937
-@@time_terminate = 89267
-@@Time total = 11803296
-@@time_create = 9575368
-@@time_function = 2128145
-@@time_terminate = 88924
-@@Time total = 11882849
-@@time_create = 9530828
-@@time_function = 2129820
-@@time_terminate = 89375
-@@Time total = 11820341
-@@time_create = 9508886
-@@time_function = 2130767
-@@time_terminate = 89124
-@@Time total = 11779807
-@@time_create = 9427102
-@@time_function = 2114635
-@@time_terminate = 89654
-@@Time total = 11708401
-@@time_create = 9538038
-@@time_function = 2140648
-@@time_terminate = 89717
-@@Time total = 11811798
-@@time_create = 9529438
-@@time_function = 2132306
-@@time_terminate = 89481
-@@Time total = 11785321
-@@time_create = 9524302
-@@time_function = 2141612
-@@time_terminate = 90506
-@@Time total = 11852848
-@@time_create = 9511561
-@@time_function = 2133686
-@@time_terminate = 89625
-@@Time total = 11772822
-@@time_create = 9540365
-@@time_function = 2128813
-@@time_terminate = 89073
-@@Time total = 11838444
-@@time_create = 9463174
-@@time_function = 2127447
-@@time_terminate = 89061
-@@Time total = 11749148
-@@time_create = 9518098
-@@time_function = 2135094
-@@time_terminate = 90033
-@@Time total = 11804591
-@@time_create = 9506213
-@@time_function = 2131951
-@@time_terminate = 89542
-@@Time total = 11821093
-@@time_create = 9502771
-@@time_function = 2118776
-@@time_terminate = 89428
-@@Time total = 11726892
-@@time_create = 9576163
-@@time_function = 2136144
-@@time_terminate = 92382
-@@Time total = 11855803
-@@time_create = 9495852
-@@time_function = 2129765
-@@time_terminate = 89825
-@@Time total = 11764240
+==== 2 MBs copy:
+66892, 66753, 66735, 66493, 66634, 66018, 66707, 65713, 66643, 66962, 66252, 66328, 66117, 64237, 65819, 67077, 66357, 66355, 66315, 66121,  
+==== 4 MBs copy:
+135378, 132380, 134846, 131974, 132498, 132343, 133745, 133117, 133299, 132311, 134329, 132225, 132200, 132985, 132928, 133604, 133941, 132411, 130644, 131963,  
+==== 8 MBs copy:
+257700, 263827, 266313, 262990, 267778, 265820, 263527, 265889, 264668, 262541, 262908, 261601, 262106, 265084, 264000, 261914, 262626, 261310, 264377, 260773,  
+==== 16 MBs copy:
+533550, 535184, 527348, 525534, 530501, 526644, 528227, 531665, 529461, 525979, 530256, 535037, 528017, 536193, 528670, 529568, 533377, 530028, 530807, 533905,  
+==== 32 MBs copy:
+1061027, 1064773, 1062253, 1064777, 1058133, 1066952, 1061562, 1065920, 1060084, 1052955, 1063527, 1066628, 1066714, 1060642, 1061558, 1061392, 1056073, 1060004, 1060439, 1058952,  

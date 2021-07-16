@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for ((num=32;num<=40;num++))
+for ((num=32;num<=42;num++))
 do
 	make build NUM=$num
 	echo "NUM=$num :" >> times.txt 
