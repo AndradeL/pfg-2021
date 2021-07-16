@@ -38,6 +38,6 @@ int main(int argc, char *argv[]) {
 
   printf("%d\n", n);
   FILE *oFile = fopen("cpu_times.txt", "a");
-  fprintf(oFile, "%lu\n", end_time - start_time);
+  fprintf(oFile, "%lu, ", end_time - start_time);
   fclose(oFile);
 }

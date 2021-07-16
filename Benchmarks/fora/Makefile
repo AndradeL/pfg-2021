@@ -5,7 +5,7 @@ CC=gcc
 all: disk.x mem.x cpu.x recursion.x
 
 %.x: %.c
-	$(CC) $(CFLAGS) $^ -o $@
+	$(CC) $(CFLAGS) $^ -o $@ -DMBS=$(NUM)
 
 .PHONY: run
 run: all data.txt

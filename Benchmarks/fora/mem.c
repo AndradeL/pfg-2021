@@ -6,7 +6,11 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-#define NUM_EL (64 * 1024 * 1024)
+#ifndef MBS
+#define MBS 64
+#endif
+
+#define NUM_EL (MBS * 1024 * 1024)
 #define SEED (120389747)
 
 static int vec1[NUM_EL];
@@ -49,9 +53,7 @@ int main(int argc, char *argv[]) {
 
   unsigned long end_time = get_time();
 
-  use_variables();
-
   FILE *oFile = fopen("mem_times.txt", "a");
-  fprintf(oFile, "%lu\n", end_time - start_time);
+  fprintf(oFile, "%lu, ", end_time - start_time);
   fclose(oFile);
 }

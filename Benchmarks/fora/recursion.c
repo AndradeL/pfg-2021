@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <sys/time.h>
 
+#ifndef NUM
 #define NUM 40
+#endif
 
 uint64_t fibonacci(uint64_t n) {
   if (n > 2)
@@ -32,6 +34,6 @@ int main(int argc, char *argv[]) {
 
   fprintf(stderr, "%lu\n", num);
   FILE *oFile = fopen("rec_times.txt", "a");
-  fprintf(oFile, "%lu\n", end_time - start_time);
+  fprintf(oFile, "%lu, ", end_time - start_time);
   fclose(oFile);
 }

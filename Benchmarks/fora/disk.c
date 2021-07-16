@@ -7,7 +7,10 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-#define BUF_SIZE (8 * 1024 * 1024)
+#ifndef MBS
+#define MBS 8
+#endif
+#define BUF_SIZE (MBS * 1024 * 1024)
 
 static uint8_t buf[BUF_SIZE];
 static FILE *read_file;
@@ -44,7 +47,7 @@ int main(int argc, char *argv[]) {
   end_time = get_time();
 
   oFile = fopen("diskr_times.txt", "a");
-  fprintf(oFile, "%lu\n", end_time - start_time);
+  fprintf(oFile, "%lu, ", end_time - start_time);
   fclose(oFile);
 
   start_time = get_time();
@@ -52,7 +55,7 @@ int main(int argc, char *argv[]) {
   end_time = get_time();
 
   oFile = fopen("diskw_times.txt", "a");
-  fprintf(oFile, "%lu\n", end_time - start_time);
+  fprintf(oFile, "%lu, ", end_time - start_time);
   fclose(oFile);
 
   fclose(read_file);
