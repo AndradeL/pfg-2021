@@ -1,0 +1,138 @@
+sfcp:	fomels@vostok	Wed Aug 27 16:45:34 2003
+
+	dscale=0.25
+	#min3=0
+	#max1=3000
+	#j1=1
+	d2=4.
+	o1=0
+	n2=2301
+	sweepfreqstart=0
+	="marmvel.H@"
+	Q2="/home/math/m3/fomel/data/oldq2"
+	label1="meters"
+	d3=1
+	#min4=0
+	#max2=9204.24
+	#j2=1
+	n3=1
+	o2=.0
+	lengthunits=0
+	label2="meters"
+	d4=1
+	o3=0
+	#max3=0
+	#j3=1
+	n4=1
+	impulsepolaritycode=0
+	amplrecoverycode=0
+	correlatedcode=0
+	tracesortcode=1
+	nsampertrnow=2301
+	data_format="xdr_float"
+	label3=""
+	o4=0
+	#max4=0
+	#j4=1
+	sratenow=2304
+	auxtrperrec=0
+	reelnumber=1
+	linenumber=1
+	bhed="marmvel.bhed"
+	label4=""
+	float=1
+	esize=4
+	sampleformatcode=1
+	sweeptracenum=0
+	nsampertrbefore=2301
+	in="marmvel.H@"
+	title="Marmousi velocity (m/sec)"
+	#f1=0
+	sweeptaperlen1=0
+	cdpfold=1502
+	nt=2301
+	dt=2.304000e-03
+	axis=0
+	#f2=1
+	binarygaincode=0
+	sweeptaperlen2=0
+	sweeptypecode=0
+	jobidentnum=1
+	header="marmvel.header"
+	#f3=0
+	#min1=0
+	vibratorpolaritycode=0
+	sweeptapertype=0
+	sweeplength=0
+	sratebefore=2304
+	#f4=0
+	#min2=4.236
+	sweepfreqend=0
+	vertsumcode=0
+	n1=751
+	d1=4.
+	datatrperrec=751
+	data_format="xdr_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfdd	openenclave/scons-files/fwi:	lucas@lucas-X580VD	Sat Mar 20 11:53:41 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfwindow	openenclave/scons-files/fwi:	lucas@lucas-X580VD	Sat Mar 20 11:53:41 2021
+
+	d2=32
+	n2=288
+	o1=0
+	o2=0
+	label1="meters"
+	data_format="native_float"
+	label2="meters"
+	esize=4
+	j1=8
+	in="stdout"
+	j2=8
+	d1=32
+	n1=94
+	in="stdin"
+
+3.1.1	sfsmooth	openenclave/scons-files/fwi:	lucas@lucas-X580VD	Sat Mar 20 11:53:41 2021
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+3.1.1	sfput	openenclave/scons-files/fwi:	lucas@lucas-X580VD	Sat Mar 20 11:53:41 2021
+
+	in="/var/tmp/openenclave/scons-files/fwi/vel.rsf@"
+	label1=Depth
+	data_format="native_float"
+	label2=Lateral
+	unit1=m
+	unit2=m
+3.1.1	sfsmooth	openenclave/scons-files/fwi:	lucas@lucas-X580VD	Sat Mar 20 11:53:49 2021
+
+	data_format="native_float"
+	esize=4
+	in="/var/tmp/openenclave/scons-files/fwi/smvel.rsf@"
+3.1.1	fwi.x	pfg-2021/Teste-fora/zfwi:	lucas@lucas-X580VD	Sun May 30 23:41:58 2021
+
+	d2=32
+	n2=288
+	d3=1
+	n3=100
+	label1="Depth"
+	data_format="native_float"
+	o3=1
+	label2="Distance"
+	label3="Iteration"
+	esize=4
+	in="/var/tmp/out.rsf@"
+	d1=32
+	n1=94

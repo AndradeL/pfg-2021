@@ -1,6 +1,0 @@
-100 200 300 398 399 400 n1=6 n=100,100 data_format=ascii_int in=horz_lag0.asc
-3.1-git	sfdd	Downloads/scons-files/sfhelicon:	luislacalle@luislacalle-G3-3590	Thu Nov 26 22:59:09 2020
-
-	data_format="native_int"
-	esize=4
-	in="/var/tmp/Downloads/scons-files/sfhelicon/horz_lag.rsf@"

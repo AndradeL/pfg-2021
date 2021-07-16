@@ -6,7 +6,7 @@ do
 	do
 	    cd $tests
 	    echo `pwd`
-	    make run
+	    make build
 	    cd ..
 	done
 done

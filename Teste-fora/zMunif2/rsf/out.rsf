@@ -1,4 +1,4 @@
-3.1.1	fwi.x	pfg-2021/Teste-fora/zMunif2:	lucas@lucas-X580VD	Tue Apr 27 20:18:27 2021
+3.1.1	fwi.x	pfg-2021/Teste-fora/zMunif2:	lucas@lucas-X580VD	Tue May 25 06:51:49 2021
 
 	o1=0
 	d2=0.0101
@@ -9,6 +9,6 @@
 	data_format="native_float"
 	n4=1
 	esize=4
-	in="/var/tmp/fwi.x3M0Gi4"
+	in="/var/tmp/fwi.xg080r9"
 	d1=0.0101
 	n1=199

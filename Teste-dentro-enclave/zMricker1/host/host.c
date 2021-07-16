@@ -45,7 +45,7 @@ int main(int argc, char* argv[])
     int ret = 1;
     oe_enclave_t* enclave = NULL;
 
-    uint32_t flags = OE_ENCLAVE_FLAG_DEBUG;
+    uint32_t flags = 0;
     if (check_simulate_opt(&argc, argv))
     {
         flags |= OE_ENCLAVE_FLAG_SIMULATE;

@@ -1,1 +1,0 @@
-helloworldhost: build/api/c/alloc.c: cannot allocate 1107680 bytes: Out of memory
