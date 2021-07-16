@@ -108,7 +108,7 @@ int main(int argc, char* argv[])
 
     long unsigned end = get_time();
     
-    fprintf(rtime_file, "%lu\n", end - start);
+    fprintf(rtime_file, "%lu, ", end - start);
 
     start = get_time();
 
@@ -116,7 +116,7 @@ int main(int argc, char* argv[])
 
     end = get_time();
 
-    fprintf(wtime_file, "%lu\n", end - start);
+    fprintf(wtime_file, "%lu, ", end - start);
 
     t_close(enclave);
 

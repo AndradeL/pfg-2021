@@ -2,7 +2,11 @@
 
 #include "helloworld_t.h"
 
-#define BUF_SIZE (8 * 1024 * 1024)
+#ifndef NUM
+#define NUM 8
+#endif
+
+#define BUF_SIZE (NUM * 1024 * 1024)
 
 static uint8_t buf[BUF_SIZE];
 static FILE *read_file;

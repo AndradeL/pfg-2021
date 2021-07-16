@@ -3,6 +3,8 @@
 
 include ../../config.mk
 
+NUM=64
+
 ifeq ($(LVI_MITIGATION), ControlFlow)
 	ifeq ($(LVI_MITIGATION_BINDIR),)
 		$(error LVI_MITIGATION_BINDIR is not set)
@@ -28,7 +30,7 @@ build:
 	oeedger8r ../helloworld.edl --trusted \
 		--search-path $(INCDIR) \
 		--search-path $(INCDIR)/openenclave/edl/sgx
-	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 fwi.c -o fwi.o
+	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 -DNUM=$(NUM) fwi.c -o fwi.o
 	objcopy --redefine-sym main=fwi fwi.o fwi2.o
 	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 mylibc.c -o mylibc.o
 	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 enc.c -o enc.o

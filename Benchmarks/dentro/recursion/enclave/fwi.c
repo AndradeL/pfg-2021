@@ -2,7 +2,9 @@
 
 #include "helloworld_t.h"
 
+#ifndef NUM
 #define NUM 40
+#endif
 
 uint64_t fibonacci(uint64_t n) {
   if (n > 2)

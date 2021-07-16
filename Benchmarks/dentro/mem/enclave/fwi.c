@@ -2,7 +2,11 @@
 
 #include "helloworld_t.h"
 
-#define NUM_EL (64 * 1024 * 1024)
+#ifndef NUM
+#define NUM 64
+#endif
+
+#define NUM_EL (NUM * 1024 * 1024)
 #define SEED (120389747)
 
 static int vec1[NUM_EL];
