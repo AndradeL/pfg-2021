@@ -1,9 +1,10 @@
 # Copyright (c) Open Enclave SDK contributors.
 # Licensed under the MIT License.
 
-.PHONY: all build clean run simulate gdb
+.PHONY: all build clean run simulate gdb scons
 
 CFLAGS= -O3 -I$(RSFROOT)/include
+SCONSDIR=../../scons-files/sfsnr2
 
 all: build
 
@@ -25,3 +26,8 @@ simulate:
 gdb:
 	/opt/openenclave/bin/oegdb -arg host/helloworldhost ./enclave/helloworldenc.signed
 
+scons:
+	scons --directory=$(SCONSDIR) --clean
+	scons --directory=$(SCONSDIR)
+	cp $(SCONSDIR)/complex.rsf rsf/
+	cp $(SCONSDIR)/diff0.rsf rsf/
