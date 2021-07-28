@@ -431,7 +431,7 @@ int main(int argc, char *argv[])
     /* set up I/O files */
     vinit=sf_input ("in");   /* initial velocity model, unit=m/s */
     shots=sf_input("shots"); /* recorded shots from exact velocity model */
-    vupdates=sf_output("out.rsf"); /* updated velocity in iterations */ 
+    vupdates=sf_output("rsf/out.rsf"); /* updated velocity in iterations */ 
     grads=sf_output("grads");  /* gradient in iterations */ 
     illums=sf_output("illums");/* source illumination in iterations */
     objs=sf_output("objs");/* values of objective function in iterations */
