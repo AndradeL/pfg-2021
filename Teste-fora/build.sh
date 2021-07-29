@@ -1,13 +1,10 @@
 #!/bin/bash
 
-for ((i=0;i<10;i++))
+for tests in ./*/
 do
-	for tests in ./*/
-	do
-	    cd $tests
-	    echo `pwd`
-		make scons
-	    make build
-	    cd ..
-	done
+	cd $tests
+	echo `pwd`
+	make scons
+	make build
+	cd ..
 done
