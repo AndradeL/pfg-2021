@@ -29,5 +29,5 @@ scons:
 	scons --directory=$(SCONSDIR) --clean
 	scons --directory=$(SCONSDIR)
 	cp $(SCONSDIR)/horz.rsf rsf/
-	cp $(SCONSDIR)/shorz1.rsf rsf/
+	cp $(SCONSDIR)/horz_lag.rsf ./
 	cp $(SCONSDIR)/spike.rsf rsf/

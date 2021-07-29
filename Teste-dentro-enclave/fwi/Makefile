@@ -29,7 +29,7 @@ scons:
 	scons --directory=$(SCONSDIR)/fwi/ --clean
 	scons --directory=$(SCONSDIR)/fwi/
 	cp $(SCONSDIR)/fwi/rsf/grads.rsf .
-	cp $(SCONSDIR)/fwi/rsf/illumns.rsf .
+	cp $(SCONSDIR)/fwi/rsf/illums.rsf .
 	cp $(SCONSDIR)/fwi/rsf/objs.rsf .
 	cp $(SCONSDIR)/fwi/rsf/shots.rsf .
 	cp $(SCONSDIR)/fwi/rsf/smvel.rsf .
