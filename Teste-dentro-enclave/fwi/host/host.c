@@ -66,7 +66,7 @@ int main(int argc, char* argv[])
 
     long unsigned end2 = get_time();
 
-   fprintf(time_file, "@@time_create = %lu\n", end2 - start2);
+    fprintf(time_file, "@@time_create = %lu\n", end2 - start2);
 
     open_std();
 

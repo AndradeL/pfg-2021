@@ -45,7 +45,7 @@ int main(int argc, char* argv[])
     int ret = 1;
     oe_enclave_t* enclave = NULL;
 
-    uint32_t flags = 0;
+    uint32_t flags = OE_ENCLAVE_FLAG_DEBUG;
     if (check_simulate_opt(&argc, argv))
     {
         flags |= OE_ENCLAVE_FLAG_SIMULATE;
@@ -66,7 +66,7 @@ int main(int argc, char* argv[])
 
     long unsigned end2 = get_time();
 
-   fprintf(time_file, "@@time_create = %lu\n", end2 - start2);
+    fprintf(time_file, "@@time_create = %lu\n", end2 - start2);
 
     open_std();
 
