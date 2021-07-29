@@ -3,7 +3,7 @@
 
 .PHONY: all build clean run simulate gdb scons
 
-SCONSDIR=../../scons-files
+SCONSDIR=../../scons-files/fwi
 
 all: build
 
@@ -26,10 +26,10 @@ gdb:
 	/opt/openenclave/bin/oegdb -arg host/helloworldhost ./enclave/helloworldenc.signed
 
 scons:
-	scons --directory=$(SCONSDIR)/fwi/ --clean
-	scons --directory=$(SCONSDIR)/fwi/
-	cp $(SCONSDIR)/fwi/rsf/grads.rsf .
-	cp $(SCONSDIR)/fwi/rsf/illums.rsf .
-	cp $(SCONSDIR)/fwi/rsf/objs.rsf .
-	cp $(SCONSDIR)/fwi/rsf/shots.rsf .
-	cp $(SCONSDIR)/fwi/rsf/smvel.rsf .
+	scons --directory=$(SCONSDIR)/ --clean
+	scons --directory=$(SCONSDIR)/
+	cp $(SCONSDIR)/grads.rsf rsf/
+	cp $(SCONSDIR)/illums.rsf rsf/
+	cp $(SCONSDIR)/objs.rsf rsf/
+	cp $(SCONSDIR)/shots.rsf rsf/
+	cp $(SCONSDIR)/smvel.rsf rsf/

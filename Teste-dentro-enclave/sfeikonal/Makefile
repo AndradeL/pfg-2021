@@ -28,4 +28,4 @@ gdb:
 scons:
 	scons --directory=$(SCONSDIR) --clean
 	scons --directory=$(SCONSDIR)
-	cp $(SCONSDIR)/rsf/seg.rsf rsf/in.rsf
+	cp $(SCONSDIR)/seg.rsf rsf/in.rsf
