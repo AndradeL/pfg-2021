@@ -102,7 +102,7 @@ int main(int argc, char* argv[])
     int resultado;
     long unsigned start = get_time();
 
-    result = fwi(enclave, &resultado, argc, argv);
+    result = run_app(enclave, &resultado, argc, argv);
 
     long unsigned end = get_time();
 

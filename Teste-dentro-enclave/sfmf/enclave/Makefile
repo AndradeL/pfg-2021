@@ -30,17 +30,17 @@ build:
 		--search-path $(INCDIR)/openenclave/edl/sgx
 	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 main.c -o main.o
 	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 boundary.c -o boundary.o
-	objcopy --redefine-sym main=fwi main.o main2.o
+	objcopy --redefine-sym main=run_app main.o run_app.o
 	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 mylibc.c -o mylibc.o
 	$(CC) -c -D NO_BLAS $(CFLAGS) -DOE_API_VERSION=2 enc.c -o enc.o
 	$(CC) -c $(CFLAGS) -DOE_API_VERSION=2 helloworld_t.c -o helloworld_t.o
-	$(CC) -z muldefs -o helloworldenc helloworld_t.o main2.o boundary.o -lrsf mylibc.o enc.o $(LDFLAGS)
+	$(CC) -z muldefs -o helloworldenc helloworld_t.o run_app.o boundary.o -lrsf mylibc.o enc.o $(LDFLAGS)
 
 sign:
 	oesign sign -e helloworldenc -c helloworld.conf -k private.pem
 
 clean:
-	rm -f enc.o mylibc.o main.o main2.o helloworldenc helloworldenc.signed private.pem public.pem helloworld_t.o helloworld_t.h helloworld_t.c helloworld_args.h
+	rm -f enc.o mylibc.o main.o run_app.o helloworldenc helloworldenc.signed private.pem public.pem helloworld_t.o helloworld_t.h helloworld_t.c helloworld_args.h
 
 keys:
 	openssl genrsa -out private.pem -3 3072
