@@ -9,16 +9,16 @@ SCONSDIR=../../scons-files/sfslice
 all: build
 
 build: export CC=gcc
-build: fwi.x
+build: main.x
 
-fwi.x: fwi.c
-	gcc -D NO_BLAS $(CFLAGS) fwi.c -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
+main.x: main.c
+	gcc -D NO_BLAS $(CFLAGS) main.c -o main.x -lrsf -lm -L$(RSFROOT)/lib
 
 clean:
-	rm *.o fwi.x
+	rm *.o main.x
 
-run: fwi.x
-	./fwi.x pick=rsf/rms.rsf >> times.txt
+run: main.x
+	./main.x pick=rsf/rms.rsf >> times.txt
 
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate

@@ -9,19 +9,19 @@ SCONSDIR=../../scons-files/sfsigmoid
 all: build
 
 build: export CC=gcc
-build: fwi.x
+build: main.x
 
-fwi.x: fwi.c random.o
-	gcc $(CFLAGS) fwi.c random.o -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
+main.x: main.c random.o
+	gcc $(CFLAGS) main.c random.o -o main.x -lrsf -lm -L$(RSFROOT)/lib
 
 %.o: %.c %.h
 	gcc -c $(CFLAGS) $< -o $@
 
 clean:
-	rm *.o fwi.x
+	rm *.o main.x
 
-run: fwi.x
-	./fwi.x n1=200 d2=.008 n2=200 >> times.txt
+run: main.x
+	./main.x n1=200 d2=.008 n2=200 >> times.txt
 
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate

@@ -8,16 +8,16 @@ SCONSDIR=../../scons-files/fwi
 all: build
 
 build: export CC=gcc
-build: fwi.x
+build: main.x
 
-fwi.x: fwi.c
-	gcc -D NO_BLAS $(CFLAGS) fwi.c -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
+main.x: main.c
+	gcc -D NO_BLAS $(CFLAGS) main.c -o main.x -lrsf -lm -L$(RSFROOT)/lib
 
 clean:
-	rm *.o fwi.x
+	rm *.o main.x
 
-run: fwi.x
-	./fwi.x shots=rsf/shots.rsf grads=rsf/grads.rsf illums=rsf/illums.rsf objs=rsf/objs.rsf < rsf/smvel.rsf >> times.txt
+run: main.x
+	./main.x shots=rsf/shots.rsf grads=rsf/grads.rsf illums=rsf/illums.rsf objs=rsf/objs.rsf < rsf/smvel.rsf >> times.txt
 
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate

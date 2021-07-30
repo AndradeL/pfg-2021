@@ -9,19 +9,19 @@ SCONSDIR=../../scons-files/sfeikonal
 all: build
 
 build: export CC=gcc
-build: fwi.x
+build: main.x
 
-fwi.x: fwi.c fastmarch.o
-	gcc $(CFLAGS) fwi.c fastmarch.o -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
+main.x: main.c fastmarch.o
+	gcc $(CFLAGS) main.c fastmarch.o -o main.x -lrsf -lm -L$(RSFROOT)/lib
 
 %.o: %.c %.h
 	gcc -c $(CFLAGS) $< -o $@
 
 clean:
-	rm *.o fwi.x
+	rm *.o main.x
 
-run: fwi.x
-	./fwi.x vel=0 zshot=1500 >> times.txt
+run: main.x
+	./main.x vel=0 zshot=1500 >> times.txt
 
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate

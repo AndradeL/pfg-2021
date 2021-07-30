@@ -9,19 +9,19 @@ SCONSDIR=../../scons-files/sfpwd
 all: build
 
 build: export CC=gcc
-build: fwi.x
+build: main.x
 
-fwi.x: fwi.c allp3.o apfilt.o
-	gcc $(CFLAGS) fwi.c allp3.o apfilt.o -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
+main.x: main.c allp3.o apfilt.o
+	gcc $(CFLAGS) main.c allp3.o apfilt.o -o main.x -lrsf -lm -L$(RSFROOT)/lib
 
 %.o: %.c %.h
 	gcc -c $(CFLAGS) $< -o $@
 
 clean:
-	rm *.o fwi.x
+	rm *.o main.x
 
-run: fwi.x
-	./fwi.x dip=rsf/gom-dip.rsf >> times.txt
+run: main.x
+	./main.x dip=rsf/gom-dip.rsf >> times.txt
 
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate

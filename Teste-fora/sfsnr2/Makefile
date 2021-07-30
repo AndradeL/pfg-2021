@@ -9,16 +9,16 @@ SCONSDIR=../../scons-files/sfsnr2
 all: build
 
 build: export CC=gcc
-build: fwi.x
+build: main.x
 
-fwi.x: fwi.c
-	gcc -D NO_BLAS $(CFLAGS) fwi.c -o fwi.x -lrsf -lblas -lm -L$(RSFROOT)/lib
+main.x: main.c
+	gcc -D NO_BLAS $(CFLAGS) main.c -o main.x -lrsf -lblas -lm -L$(RSFROOT)/lib
 
 clean:
-	rm *.o fwi.x
+	rm *.o main.x
 
-run: fwi.x
-	./fwi.x noise=rsf/diff0.rsf
+run: main.x
+	./main.x noise=rsf/diff0.rsf
 
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate

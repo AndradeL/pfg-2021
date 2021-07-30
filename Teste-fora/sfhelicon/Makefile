@@ -9,19 +9,19 @@ SCONSDIR=../../scons-files/sfhelicon
 all: build
 
 build: export CC=gcc
-build: fwi.x
+build: main.x
 
-fwi.x: fwi.c regrid.o
-	gcc $(CFLAGS) fwi.c regrid.o -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
+main.x: main.c regrid.o
+	gcc $(CFLAGS) main.c regrid.o -o main.x -lrsf -lm -L$(RSFROOT)/lib
 
 %.o: %.c %.h
 	gcc -c $(CFLAGS) $< -o $@
 
 clean:
-	rm *.o fwi.x
+	rm *.o main.x
 
-run: fwi.x
-	./fwi.x filt=rsf/horz.rsf adj=0 div=0 >> times.txt
+run: main.x
+	./main.x filt=rsf/horz.rsf adj=0 div=0 >> times.txt
 
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate

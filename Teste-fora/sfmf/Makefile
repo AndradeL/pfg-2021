@@ -9,19 +9,19 @@ SCONSDIR=../../scons-files/sfmf
 all: build
 
 build: export CC=gcc
-build: fwi.x
+build: main.x
 
-fwi.x: fwi.c boundary.o
-	gcc $(CFLAGS) fwi.c boundary.o -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
+main.x: main.c boundary.o
+	gcc $(CFLAGS) main.c boundary.o -o main.x -lrsf -lm -L$(RSFROOT)/lib
 
 %.o: %.c %.h
 	gcc -c $(CFLAGS) $< -o $@
 
 clean:
-	rm *.o fwi.x
+	rm *.o main.x
 
-run: fwi.x
-	./fwi.x nfw=11 >> times.txt
+run: main.x
+	./main.x nfw=11 >> times.txt
 
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate

@@ -9,19 +9,19 @@ SCONSDIR=../../scons-files/sfricker1
 all: build
 
 build: export CC=gcc
-build: fwi.x
+build: main.x
 
-fwi.x: fwi.c ricker.o kirmod.o kirmod2.o
-	gcc $(CFLAGS) fwi.c ricker.o kirmod.o kirmod2.o -o fwi.x -lrsf -lm -L$(RSFROOT)/lib
+main.x: main.c ricker.o kirmod.o kirmod2.o
+	gcc $(CFLAGS) main.c ricker.o kirmod.o kirmod2.o -o main.x -lrsf -lm -L$(RSFROOT)/lib
 
 %.o: %.c %.h
 	gcc -c $(CFLAGS) $< -o $@
 
 clean:
-	rm *.o fwi.x
+	rm *.o main.x
 
-run: fwi.x
-	./fwi.x freq=25 >> times.txt
+run: main.x
+	./main.x freq=25 >> times.txt
 
 simulate:
 	host/helloworldhost ./enclave/helloworldenc.signed --simulate
