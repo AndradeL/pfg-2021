@@ -1,8 +1,0 @@
-@@time_create = 2690
-@@time_function = 48594
-@@time_terminate = 46
-@@Time total = 51445
-@@time_create = 2596
-@@time_function = 46353
-@@time_terminate = 46
-@@Time total = 49053

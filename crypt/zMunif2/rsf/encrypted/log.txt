@@ -1,3 +1,0 @@
-Falta:
-    fread e fwrite.
-    Adaptar enc para passar os parâmetros necessários.
