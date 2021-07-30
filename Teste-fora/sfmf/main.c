@@ -30,11 +30,11 @@ http://ahay.org/blog/2015/01/30/program-of-the-month-sfmf/
 
 unsigned long get_time();
 
-int fwi(int argc, char **argv);
+int run(int argc, char **argv);
 
 int main(int argc, char **argv){
     unsigned long start = get_time();
-    fwi(argc,argv);
+    run(argc,argv);
     unsigned long end = get_time();
 
     printf("%lu\n", end - start);
@@ -42,7 +42,7 @@ int main(int argc, char **argv){
     return 0;
 }
 
-int fwi (int argc, char* argv[]) 
+int run(int argc, char* argv[]) 
 {
     int n1,n2,n3; /*n1 is trace length, n2 is the number of traces, n3 is the number of 3th axis*/
     int nfw;    /*nfw is the filter-window length*/

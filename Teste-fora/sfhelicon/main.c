@@ -26,11 +26,11 @@ http://ahay.org/blog/2014/05/13/program-of-the-month-sfhelicon/
 
 unsigned long get_time();
 
-int fwi(int argc, char **argv);
+int run(int argc, char **argv);
 
 int main(int argc, char **argv){
     unsigned long start = get_time();
-    fwi(argc,argv);
+    run(argc,argv);
     unsigned long end = get_time();
 
     printf("%lu\n", end - start);
@@ -38,7 +38,7 @@ int main(int argc, char **argv){
     return 0;
 }
 
-int fwi(int argc, char* argv[])
+int run(int argc, char* argv[])
 {
     //unsigned long start = get_time();
     int i, ia, na, nx, dim, n[SF_MAX_DIM], m[SF_MAX_DIM];

@@ -28,11 +28,11 @@ http://ahay.org/blog/2013/02/09/program-of-the-month-sfpwd/
 
 unsigned long get_time();
 
-int fwi(int argc, char **argv);
+int run(int argc, char **argv);
 
 int main(int argc, char **argv){
     unsigned long start = get_time();
-	fwi(argc,argv);
+	run(argc,argv);
     unsigned long end = get_time();
 
     printf("%lu\n", end - start);
@@ -40,7 +40,7 @@ int main(int argc, char **argv){
     return 0;
 }
 
-int fwi (int argc, char *argv[])
+int run(int argc, char *argv[])
 {
 	//unsigned long start = get_time();
 

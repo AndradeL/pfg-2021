@@ -25,11 +25,11 @@ SNR=10 log10(sum(clean)/sum(noise))*/
 
 unsigned long get_time();
 
-int fwi(int argc, char **argv);
+int run(int argc, char **argv);
 
 int main(int argc, char **argv){
     unsigned long start = get_time();
-    fwi(argc,argv);
+    run(argc,argv);
     unsigned long end = get_time();
 
     FILE *file = fopen("times.txt", "a");
@@ -38,7 +38,7 @@ int main(int argc, char **argv){
     return 0;
 }
 
-int fwi (int argc, char* argv[]) 
+int run(int argc, char* argv[]) 
 {
     //unsigned long start = get_time();
 	int n1,nn1,n2,nn2,n3,nn3; /*n1 is trace length, n2 is the number of traces, n3 is the number of 3th axis*/
